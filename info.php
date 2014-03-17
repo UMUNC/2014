@@ -58,7 +58,7 @@ $javascript = "
                 document.info_form.del_email.focus();
                 return false;
             }
-            else if (document.info_form.del_time.value == '') {
+            else if (isNaN(parseFloat(document.info_form.del_time.value))) {
                 alert ('请输入你的模联年龄 Please input your time in ModelUN');
                 document.info_form.del_time.focus();
                 return false;
@@ -91,7 +91,7 @@ begin_html($title = "UMUNC Application", $javascript = $javascript);
 
 <br>
 
-<form name="info_form" method="post" action="status.php" accept-charset="utf-8">
+<form name="info_form" method="post" action="done.php" accept-charset="utf-8">
     <table class="info_table">
         <tr>
             <td colspan=2>
