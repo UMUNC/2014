@@ -1,0 +1,22 @@
+.info_table {
+    vertical-align: middle;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.stress {
+    color: RED;
+}
+
+.choice {
+    width: 4;
+    vertical-align: top;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
