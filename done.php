@@ -135,6 +135,17 @@ $error
     exit(1);
 }
 
+// When no error occurs
+
 begin_html("Thank you!");
+
+if (!($link = connect_db())) {
+    exit(1);
+}
+
+mysql_select_db("umunc") || exit(1);
+mysql_query("SET character_set_client=utf8");
+mysql_query("SET character_set_connection=utf8");
+
 ?>
 Your paritipation is deeply appreciated!

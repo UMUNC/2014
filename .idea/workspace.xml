@@ -10,9 +10,10 @@
     <file path="/custom.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1394964362575" ignored="false" />
     <file path="/common.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395024413891" ignored="false" />
     <file path="/connect.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1394964595611" ignored="false" />
-    <file path="/done.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395028066382" ignored="false" />
+    <file path="/done.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395028616726" ignored="false" />
     <file path="/pmatrix1.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395023304567" ignored="false" />
     <file path="$USER_HOME$/Sites/public_html/pmatrix1.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395023311803" ignored="false" />
+    <file path="/index.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395471389218" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,107 +33,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="common.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common.php">
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="-28.125">
-              <folding>
-                <marker date="1395025374000" expanded="true" signature="252:425" placeholder="..." />
-                <marker date="1395025374000" expanded="true" signature="328:425" placeholder="..." />
-                <marker date="1395025374000" expanded="true" signature="618:691" placeholder="..." />
-                <marker date="1395025374000" expanded="true" signature="774:855" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+            <state line="55" column="38" selection-start="2031" selection-end="2031" vertical-scroll-proportion="-31.73077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/connect.php">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="381" selection-end="381" vertical-scroll-proportion="-10.625">
-              <folding>
-                <element signature="e#6#164#0" expanded="true" />
-              </folding>
+            <state line="148" column="76" selection-start="7192" selection-end="7192" vertical-scroll-proportion="0.1875">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/info.php">
+      <file leaf-file-name="font-awesome.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/font-awesome/css/font-awesome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="21" selection-start="3559" selection-end="3559" vertical-scroll-proportion="-5.625">
-              <folding>
-                <element signature="e#6#164#0" expanded="true" />
-                <marker date="1395027651000" expanded="true" signature="239:1502" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="239:321" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="239:3263" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="239:3524" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="267:321" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="326:482" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="552:707" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="782:945" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="1010:1172" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="1244:1405" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="1477:1649" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="1712:1893" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="1954:2114" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="2178:2346" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="2422:2591" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="2656:2829" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="2950:3167" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="3240:3439" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="3240:3263" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="3457:3501" placeholder="{...}" />
-                <marker date="1395027651000" expanded="true" signature="3739:3852" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="3766:3852" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="3786:3852" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="4151:4261" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="4483:4689" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="4970:5383" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="5467:5702" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="6689:7682" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="6802:7113" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="6834:7105" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="6851:6937" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="6981:7066" placeholder="..." />
-                <marker date="1395027651000" expanded="true" signature="7215:7469" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="done.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/done.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="40" selection-start="2860" selection-end="2860" vertical-scroll-proportion="0.9">
-              <folding>
-                <element signature="e#6#165#0" expanded="true" />
-                <marker date="1395028067000" expanded="true" signature="2674:2754" placeholder="..." />
-                <marker date="1395028067000" expanded="true" signature="2679:2745" placeholder="..." />
-                <marker date="1395028067000" expanded="true" signature="2684:2739" placeholder="..." />
-                <marker date="1395028067000" expanded="true" signature="2688:2733" placeholder="..." />
-                <marker date="1395028067000" expanded="true" signature="2692:2728" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validate.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/validate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="9" selection-start="1356" selection-end="1356" vertical-scroll-proportion="-30.0">
-              <folding>
-                <element signature="e#6#165#0" expanded="true" />
-              </folding>
+            <state line="1" column="5" selection-start="8" selection-end="9" vertical-scroll-proportion="8.653846">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,13 +76,17 @@
         <option value="$PROJECT_DIR$/common.php" />
         <option value="$PROJECT_DIR$/info.php" />
         <option value="$PROJECT_DIR$/done.php" />
+        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="720" />
+    <option name="y" value="22" />
+    <option name="width" value="720" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -187,6 +114,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,14 +133,231 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backgrounds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ico" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font-awesome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font-awesome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -241,27 +386,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="720" y="22" width="720" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24605452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2537092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -325,96 +470,90 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/custom.css">
+    <entry file="file://$PROJECT_DIR$/done.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="381" selection-end="381" vertical-scroll-proportion="-10.625">
-          <folding>
-            <element signature="e#6#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="-28.125">
-          <folding>
-            <marker date="1395025374000" expanded="true" signature="252:425" placeholder="..." />
-            <marker date="1395025374000" expanded="true" signature="328:425" placeholder="..." />
-            <marker date="1395025374000" expanded="true" signature="618:691" placeholder="..." />
-            <marker date="1395025374000" expanded="true" signature="774:855" placeholder="..." />
-          </folding>
-        </state>
+        <state line="145" column="22" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.88" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="21" selection-start="3559" selection-end="3559" vertical-scroll-proportion="-5.625">
-          <folding>
-            <element signature="e#6#164#0" expanded="true" />
-            <marker date="1395027651000" expanded="true" signature="239:1502" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="239:321" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="239:3263" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="239:3524" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="267:321" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="326:482" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="552:707" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="782:945" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="1010:1172" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="1244:1405" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="1477:1649" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="1712:1893" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="1954:2114" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="2178:2346" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="2422:2591" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="2656:2829" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="2950:3167" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="3240:3439" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="3240:3263" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="3457:3501" placeholder="{...}" />
-            <marker date="1395027651000" expanded="true" signature="3739:3852" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="3766:3852" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="3786:3852" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="4151:4261" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="4483:4689" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="4970:5383" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="5467:5702" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="6689:7682" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="6802:7113" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="6834:7105" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="6851:6937" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="6981:7066" placeholder="..." />
-            <marker date="1395027651000" expanded="true" signature="7215:7469" placeholder="..." />
-          </folding>
-        </state>
+        <state line="87" column="21" selection-start="3559" selection-end="3559" vertical-scroll-proportion="0.18317503" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="381" selection-end="381" vertical-scroll-proportion="0.34" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="41" selection-end="41" vertical-scroll-proportion="0.019379845" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.9" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/validate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="9" selection-start="1356" selection-end="1356" vertical-scroll-proportion="-30.0">
-          <folding>
-            <element signature="e#6#165#0" expanded="true" />
-          </folding>
+        <state line="48" column="9" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.96" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="38" selection-start="2031" selection-end="2031" vertical-scroll-proportion="-31.73077">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/done.php">
+    <entry file="file://$PROJECT_DIR$/assets/ico/apple-touch-icon-57-precomposed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ico/apple-touch-icon-144-precomposed.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ico/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/form-elements.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="40" selection-start="2860" selection-end="2860" vertical-scroll-proportion="0.9">
-          <folding>
-            <element signature="e#6#165#0" expanded="true" />
-            <marker date="1395028067000" expanded="true" signature="2674:2754" placeholder="..." />
-            <marker date="1395028067000" expanded="true" signature="2679:2745" placeholder="..." />
-            <marker date="1395028067000" expanded="true" signature="2684:2739" placeholder="..." />
-            <marker date="1395028067000" expanded="true" signature="2688:2733" placeholder="..." />
-            <marker date="1395028067000" expanded="true" signature="2692:2728" placeholder="..." />
-          </folding>
+        <state line="5" column="18" selection-start="86" selection-end="87" vertical-scroll-proportion="0.079674795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/media-queries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="9" selection-start="580" selection-end="581" vertical-scroll-proportion="0.5705329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="25" selection-end="26" vertical-scroll-proportion="0.047021944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="5" selection-start="8" selection-end="9" vertical-scroll-proportion="8.653846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="76" selection-start="7192" selection-end="7192" vertical-scroll-proportion="0.1875">
+          <folding />
         </state>
       </provider>
     </entry>
