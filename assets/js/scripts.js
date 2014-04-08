@@ -18,8 +18,9 @@ $(document).ready(function(){
 
         var input_field = $("#attend_name");
 
-        input_field.fadeOut();
-        input_field.val("");
+        input_field.fadeOut("slow", function(){
+            input_field.val("");
+        });
     });
 
 });
