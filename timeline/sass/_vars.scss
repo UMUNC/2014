@@ -1,0 +1,64 @@
+$blue: #5F8AE8;
+
+$white : #ecf0f1;
+$gray-light: darken($white, 1);
+$gray-lighter: lighten($gray-light, 5);
+$gray: darken($white, 10);
+$gray-dark: darken($white, 35);
+$gray-darker: darken($white, 50);
+$black: rgb(30,30,30);
+
+$fast: .3s;
+$slow: 1.3s;
+
+$font-a: helvetica;
+
+@mixin bp($point, $value: 0) {
+	@if $point == s {
+		@media (min-width: 40em) { @content; }
+	}
+
+	@else if $point == m {
+		@media (min-width: 60em) { @content; }
+	}
+
+	@else if $point == l {
+		@media (min-width: 80em) { @content; }
+	}
+
+	@else {
+		@media ($point: $value) { @content; }
+	}
+}
+
+%group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@mixin calc($property, $expression) { 
+  #{$property}: -moz-calc(#{$expression}); 
+  #{$property}: -o-calc(#{$expression}); 
+  #{$property}: -webkit-calc(#{$expression}); 
+  #{$property}: calc(#{$expression}); 
+} 
+
+@mixin triangle($pos, $size, $color){
+  content: '';
+  width: 0;
+  height: 0;
+  border:{
+  width: $size;
+  color: transparent;
+  style: solid;
+  }
+    @if $pos == top {border-top-color: $color;}
+    @if $pos == right {border-right-color: $color;}
+    @if $pos == bottom {border-bottom-color: $color;}
+    @if $pos == left {border-left-color: $color;}
+    @if $pos == top-right {border-top-color: $color; border-right-color: $color;}
+    @if $pos == top-left {border-top-color: $color; border-left-color: $color;}
+    @if $pos == bottom-right {border-bottom-color: $color; border-right-color: $color;}
+    @if $pos == bottom-left {border-bottom-color: $color; border-left-color: $color;}
+}

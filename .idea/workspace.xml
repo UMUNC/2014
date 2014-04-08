@@ -13,9 +13,17 @@
     <file path="/done.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395028616726" ignored="false" />
     <file path="/pmatrix1.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395023304567" ignored="false" />
     <file path="$USER_HOME$/Sites/public_html/pmatrix1.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395023311803" ignored="false" />
-    <file path="/index.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395548008933" ignored="false" />
+    <file path="/index.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396933175050" ignored="false" />
     <file path="/commentedOut.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395537952193" ignored="false" />
-    <file path="/subscribe.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395562662578" ignored="false" />
+    <file path="/subscribe.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395655346688" ignored="false" />
+    <file path="/about.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396932491126" ignored="false" />
+    <file path="/history.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396530240215" ignored="false" />
+    <file path="/register.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396922304994" ignored="false" />
+    <file path="/style.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396620420444" ignored="false" />
+    <file path="/bootstrap.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396693126295" ignored="false" />
+    <file path="/tech.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396857993600" ignored="false" />
+    <file path="/scripts.js" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396926125231" ignored="false" />
+    <file path="/app.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396930658297" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,64 +43,145 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="293" column="75" selection-start="15551" selection-end="15551" vertical-scroll-proportion="0.2949757">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#1;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="103" selection-start="5216" selection-end="5216" vertical-scroll-proportion="-75.625">
+              <folding>
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#1;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#2;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#3;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#4;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#5;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="284" column="74" selection-start="6806" selection-end="6806" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="161" column="34" selection-start="7759" selection-end="7759" vertical-scroll-proportion="-13.541667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="38" selection-start="2031" selection-end="2031" vertical-scroll-proportion="-31.73077">
+            <state line="21" column="28" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="jquery-1.10.2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2014/assets/js/jquery-1.10.2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="236" column="77" selection-start="11147" selection-end="11147" vertical-scroll-proportion="-20.82">
+            <state line="9437" column="9" selection-start="263065" selection-end="263065" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subscribe.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/subscribe.php">
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2014/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="64" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.7734375">
+            <state line="118" column="31" selection-start="4325" selection-end="4325" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/contact.php">
+      <file leaf-file-name="info.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2014/info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+            <state line="92" column="0" selection-start="3617" selection-end="3617" vertical-scroll-proportion="-7.5">
+              <folding>
+                <marker date="1395027651000" expanded="true" signature="239:3524" placeholder="..." />
+                <marker date="1395027651000" expanded="true" signature="267:3511" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="326:482" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="552:707" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="782:945" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="1010:1172" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="1244:1405" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="1477:1649" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="1712:1893" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="1954:2114" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="2178:2346" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="2422:2591" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="2656:2829" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="2950:3167" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="3240:3439" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="3457:3501" placeholder="{...}" />
+                <marker date="1395027651000" expanded="true" signature="4483:4689" placeholder="..." />
+                <marker date="1395027651000" expanded="true" signature="4970:5383" placeholder="..." />
+                <marker date="1395027651000" expanded="true" signature="5467:5702" placeholder="..." />
+                <marker date="1395027651000" expanded="true" signature="6802:7113" placeholder="..." />
+                <marker date="1395027651000" expanded="true" signature="6834:7105" placeholder="..." />
+                <marker date="1395027651000" expanded="true" signature="6851:6937" placeholder="..." />
+                <marker date="1395027651000" expanded="true" signature="6981:7066" placeholder="..." />
+                <marker date="1395027651000" expanded="true" signature="7215:7469" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commentedOut.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/formats/commentedOut.html">
+      <file leaf-file-name="tech.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tech.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="8" selection-start="961" selection-end="961" vertical-scroll-proportion="-4.0833335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="18" selection-start="1432" selection-end="1436" vertical-scroll-proportion="-2.3846154">
+            <state line="105" column="10" selection-start="3782" selection-end="4016" vertical-scroll-proportion="-18.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="font-awesome.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font-awesome/css/font-awesome.css">
+        <entry file="file://$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="5" selection-start="8" selection-end="9" vertical-scroll-proportion="8.653846">
+            <state line="378" column="49" selection-start="10010" selection-end="10010" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,16 +197,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/custom.css" />
-        <option value="$PROJECT_DIR$/connect.php" />
-        <option value="$PROJECT_DIR$/validate.php" />
-        <option value="$PROJECT_DIR$/common.php" />
-        <option value="$PROJECT_DIR$/info.php" />
-        <option value="$PROJECT_DIR$/done.php" />
+        <option value="$PROJECT_DIR$/formal/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/timeline.css" />
+        <option value="$PROJECT_DIR$/history.html" />
+        <option value="$PROJECT_DIR$/2014/assets/js/scripts.js" />
+        <option value="$PROJECT_DIR$/2014/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/2014/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/pages/page_log_reg_v2.css" />
+        <option value="$PROJECT_DIR$/assets/plugins/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/tech.html" />
+        <option value="$PROJECT_DIR$/2014/assets/contact.php" />
+        <option value="$PROJECT_DIR$/2014/assets/subscribe.php" />
+        <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
-        <option value="$PROJECT_DIR$/formats/commentedOut.html" />
+        <option value="$PROJECT_DIR$/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/subscribe.php" />
       </list>
     </option>
   </component>
@@ -153,7 +248,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,15 +279,70 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umunc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -212,6 +361,13 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -237,7 +393,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12266858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12553802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -313,101 +469,161 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common.php">
+    <entry file="file://$PROJECT_DIR$/2014/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.9" />
+        <state line="75" column="14" selection-start="3784" selection-end="3784" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validate.php">
+    <entry file="file://$PROJECT_DIR$/assets/plugins/horizontal-parallax/images/bg-green.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/horizontal-parallax/images/bt-next1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/apple-style/images/bt-pause.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/apple-style/images/iphone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2014/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="9" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.96" />
+        <state line="118" column="31" selection-start="4325" selection-end="4325" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2014/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="3617" selection-end="3617" vertical-scroll-proportion="-7.5">
+          <folding>
+            <marker date="1395027651000" expanded="true" signature="239:3524" placeholder="..." />
+            <marker date="1395027651000" expanded="true" signature="267:3511" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="326:482" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="552:707" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="782:945" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="1010:1172" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="1244:1405" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="1477:1649" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="1712:1893" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="1954:2114" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="2178:2346" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="2422:2591" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="2656:2829" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="2950:3167" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="3240:3439" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="3457:3501" placeholder="{...}" />
+            <marker date="1395027651000" expanded="true" signature="4483:4689" placeholder="..." />
+            <marker date="1395027651000" expanded="true" signature="4970:5383" placeholder="..." />
+            <marker date="1395027651000" expanded="true" signature="5467:5702" placeholder="..." />
+            <marker date="1395027651000" expanded="true" signature="6802:7113" placeholder="..." />
+            <marker date="1395027651000" expanded="true" signature="6834:7105" placeholder="..." />
+            <marker date="1395027651000" expanded="true" signature="6851:6937" placeholder="..." />
+            <marker date="1395027651000" expanded="true" signature="6981:7066" placeholder="..." />
+            <marker date="1395027651000" expanded="true" signature="7215:7469" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="378" column="49" selection-start="10010" selection-end="10010" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2014/assets/js/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25053" selection-start="89261" selection-end="89261" vertical-scroll-proportion="0.070202805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2014/assets/js/jquery-1.10.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9437" column="9" selection-start="263065" selection-end="263065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="34" selection-start="7759" selection-end="7759" vertical-scroll-proportion="-13.541667">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="38" selection-start="2031" selection-end="2031" vertical-scroll-proportion="-31.73077">
+        <state line="21" column="28" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/ico/apple-touch-icon-57-precomposed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/ico/apple-touch-icon-144-precomposed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/ico/favicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/form-elements.css">
+    <entry file="file://$PROJECT_DIR$/assets/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="86" selection-end="87" vertical-scroll-proportion="0.079674795">
+        <state line="284" column="74" selection-start="6806" selection-end="6806" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/media-queries.css">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="580" selection-end="581" vertical-scroll-proportion="0.5705329">
-          <folding />
+        <state line="121" column="103" selection-start="5216" selection-end="5216" vertical-scroll-proportion="-75.625">
+          <folding>
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#4;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#6;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#1;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#2;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#3;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#4;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#5;n#div#7;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/font-awesome/css/font-awesome.css">
+    <entry file="file://$PROJECT_DIR$/tech.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="8" selection-end="9" vertical-scroll-proportion="8.653846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/logo-hover.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="18" selection-start="1432" selection-end="1436" vertical-scroll-proportion="-2.3846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formats/commentedOut.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="961" selection-end="961" vertical-scroll-proportion="-4.0833335">
+        <state line="105" column="10" selection-start="3782" selection-end="4016" vertical-scroll-proportion="-18.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="77" selection-start="11147" selection-end="11147" vertical-scroll-proportion="-20.82">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/subscribe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="64" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.7734375">
-          <folding />
+        <state line="293" column="75" selection-start="15551" selection-end="15551" vertical-scroll-proportion="0.2949757">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

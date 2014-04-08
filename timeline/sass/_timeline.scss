@@ -1,0 +1,189 @@
+* {
+	@include box-sizing(border-box);
+	margin: 0;
+	padding: 0;
+}
+
+$line-width: .5rem;
+
+.timeline {
+	padding: 1rem;
+	font-family: $font-a;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		height: 100%;
+		width: $line-width;
+		background: $gray-light; 
+		@include calc(left, '50% - .25rem')
+	}
+	img {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	
+	em {
+		font-style: italic;
+	}
+	
+	strong {
+		font-weight: bold;
+	}
+	
+	& > li {
+	position: relative;
+	list-style-type: none;
+	clear: both;
+		&:before {
+			content: '';
+			width: 3rem;
+			height: 3em;
+			display: block;
+			position: absolute;
+			top: -1em;
+			@include calc(left, '50% - 1.5rem');
+			border-radius: 4em;
+			@include background-image(radial-gradient(white 30%, $gray 31%, $gray 50%, white 51%));
+		}
+	}
+	article {
+		@extend %group;
+		display: block;
+		line-height: 1.5em;
+		color: rgb(50,50,50);
+		background: white;
+		border: 1px solid $gray-light;
+		width: 100%;
+		@include bp(m){
+			width: 45%;
+		}
+		margin-bottom: 4em;
+		p, ul, ol {
+			padding: 0 1rem 1rem 1rem;
+		}
+		
+		ul, ol {
+			list-style-position: inside;
+		}
+	}	
+	time {
+		color: white;
+		background: $blue;
+		display: inline-block;
+		position: relative;		
+		font-weight: bold;
+		padding: .5em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+		font-weight: bold;
+		font-family: $font-a;
+		padding: 1rem;
+	}
+	
+	footer {
+		background: $gray-lighter;
+		padding-top: 1rem;
+		a {color: $blue;}
+		
+	}
+}
+.timeline-vertical {
+	article {
+		float: left;
+	}
+	time {
+		margin-left: 0em;
+		@include bp(m){padding-left: 0;}
+		@include bp(m){
+			margin-left: 8rem;
+			top: -.5rem;
+			&:after {
+				@include triangle(right, 1em, $blue);
+				position: absolute;
+				left: -2em;
+				top: 0;
+			}
+		}
+	}
+	
+	
+	li {
+		&:nth-child(2n){
+			article {
+				@include bp(m){
+					float: right;
+					margin-left: 8em;
+					margin-top: -.4em;
+				}
+			}
+			time {
+				@include bp(m){
+					position: absolute;
+					right: 54.5%;
+					padding-right: 0;
+				}
+				padding-left: .5em;
+				@include bp(m){
+					&:after {
+						@include triangle(left, 1rem, $blue);
+						left: auto;
+						right: -2em;
+						top: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.timeline-horizontal {
+	@include bp(m){
+	overflow-x: scroll;
+	width: 95%;
+	margin: 0 auto;
+	white-space: nowrap;
+	padding-bottom: 4rem;
+    @include background-image(linear-gradient(top, transparent 0%, transparent 85%, $gray-light 85%, $gray-light 86%, transparent 86%));
+	&:before {
+		display: none;
+	}
+	
+	time {
+		position: absolute;
+		bottom: -3.5rem;
+		left: 35%;
+		
+		&:before {
+			@include triangle(bottom, .8rem, $blue);
+			position: absolute;
+			top: -1.5rem;
+			@include calc(left, '50% - .8rem');
+		}
+	}
+	
+	& > li {
+		display: inline-block;
+		width: 33%;
+		&:before {
+			top: auto;
+			bottom: -.25rem;
+			position: absolute;
+		}
+		@include bp(l){
+			width: 25%;
+		}
+		margin-right: 2rem;
+	}
+	
+	article {
+		float: none;
+		clear: both;
+		width: 100%;
+		white-space: normal;
+	
+	}
+}
+}

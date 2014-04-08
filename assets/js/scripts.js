@@ -1,185 +1,96 @@
+/**
+ * Created with JetBrains PhpStorm.
+ * User: xianwang
+ * Date: 4/7/14
+ * Time: 9:58 PM
+ * To change this template use File | Settings | File Templates.
+ */
 
-jQuery(document).ready(function() {
-	
-    /*
-	    Top menu
-	*/
-	$('.show-menu a, .hide-menu a').tooltip();
-	// show/hide menu
-	$('.show-menu a').on('click', function(e) {
-		e.preventDefault();
-		$(this).fadeOut(100, function(){ $('nav').slideDown(); });
-	});
-	$('.hide-menu a').on('click', function(e) {
-		e.preventDefault();
-		$('nav').slideUp(function(){ $('.show-menu a').fadeIn(); });
-	});
-	// navigation
-	$('nav a').on('click', function(e) {
-		e.preventDefault();
-		var element_class = $(this).attr('class');
-		var scroll_to = 0;
-		var nav_height = $('nav').height();
-		if(element_class == 'menu-top') { scroll_to = $(".coming-soon").offset().top; }
-		else if(element_class == 'menu-subscribe') { scroll_to = $(".subscribe").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-project') { scroll_to = $(".about").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-testimonials') { scroll_to = $(".testimonials").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-about-us') { scroll_to = $(".whos-behind").offset().top - nav_height - 60; }
-		else if(element_class == 'menu-contact') { scroll_to = $(".contact").offset().top - nav_height - 60; }
-		
-		if($(window).scrollTop() != scroll_to && element_class !== undefined) {
-			$('html, body').animate({scrollTop: scroll_to}, 1000);
-		}
-	});
-	
-    /*
-        Background slideshow
-    */
-    $('.coming-soon').backstretch([
-      "assets/img/backgrounds/1.jpg"
-    , "assets/img/backgrounds/2.jpg"
-    , "assets/img/backgrounds/3.jpg"
-    ], {duration: 3000, fade: 750});
-    
-    $('.about-container').backstretch("assets/img/backgrounds/2.jpg");
-    
-    $('.whos-behind-container').backstretch("assets/img/backgrounds/4.jpg");
+$(document).ready(function(){
 
-    /*
-        Countdown initializer
-    */
-    var now = new Date();
-    var countTo = "2014/04/30";
-    $('.timer').countdown(countTo, function(event) {
-    	$(this).find('.days').text(event.offset.totalDays);
-    	$(this).find('.hours').text(event.offset.hours);
-    	$(this).find('.minutes').text(event.offset.minutes);
-    	$(this).find('.seconds').text(event.offset.seconds);
-    });
-    
-    /*
-        Testimonials
-    */
-    $('.testimonial-active').html('<p>' + $('.testimonial-single:first p').html() + '</p>');
-    $('.testimonial-single:first .testimonial-single-image img').css('opacity', '1');
-    
-    $('.testimonial-single-image img').on('click', function() {
-    	$('.testimonial-single-image img').css('opacity', '0.5');
-    	$(this).css('opacity', '1');
-    	var new_testimonial_text = $(this).parent('.testimonial-single-image').siblings('p').html();
-    	$('.testimonial-active p').fadeOut(300, function() {
-    		$(this).html(new_testimonial_text);
-    		$(this).fadeIn(400);
-    	});
-    });
-    
-    /*
-	    Show latest tweets
-	*/
-	$('.latest-tweets .tweets').tweet({
-		modpath: 'assets/twitter/',
-		username: 'anli_zaimi',
-		page: 1,
-		count: 5,
-		loading_text: 'loading ...'
-	});
-	
-	$('.latest-tweets .tweets .tweet_list li').append('<span class="tweet_nav"></span>');
-	$('.latest-tweets .tweets .tweet_list li:first .tweet_nav').css('background', '#e8643e');
-	$('.latest-tweets .tweets .tweet_list li .tweet_time').hide();
-	$('.latest-tweets .tweets .tweet_list li .tweet_text').hide();
-	$('.latest-tweets .tweet-active').html($('.latest-tweets .tweets .tweet_list li:first .tweet_text').html());
+    $("#attend_name").hide();
 
-	$('.latest-tweets .tweets .tweet_list li .tweet_nav').on('click', function() {
-		$('.latest-tweets .tweets .tweet_list li .tweet_nav').css('background', 'rgba(255, 255, 255, 0.6)');
-		var clicked_tweet_nav = $(this);
-    	var new_tweet_text = clicked_tweet_nav.siblings('.tweet_text').html();
-    	$('.latest-tweets .tweet-active').fadeOut(300, function() {
-    		$(this).html(new_tweet_text);
-    		$(this).fadeIn(400, function() {
-    			// reload background
-    			$('.whos-behind-container').backstretch("resize");
-    		});
-    	});
-    	clicked_tweet_nav.css('background', '#e8643e');
+    $("#attend_yes").click(function(){
+        $("#attend_name").fadeIn();
     });
 
-    /*
-	    Google maps
-	*/
-    var position = new google.maps.LatLng(45.067883, 7.687231);
-    $('.contact-address .map').gmap({'center': position, 'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
-            var self = this;
-            self.addMarker({'position': this.get('map').getCenter() });	
-        }
+    $("#attend_no").click(function(){
+
+        var input_field = $("#attend_name");
+
+        input_field.fadeOut();
+        input_field.val("");
     });
 
-    /*
-        Subscription form
-    */
-    $('.success-message').hide();
-    $('.error-message').hide();
-
-    $('.subscribe form').submit(function(e) {
-    	e.preventDefault();
-        var postdata = $('.subscribe form').serialize();
-        $.ajax({
-            type: 'POST',
-            url: 'assets/subscribe.php',
-            data: postdata,
-            dataType: 'json',
-            success: function(json) {
-                if(json.valid == 0) {
-                    $('.success-message').hide();
-                    $('.error-message').hide();
-                    $('.error-message').html(json.message);
-                    $('.error-message').fadeIn();
-                }
-                else {
-                    $('.error-message').hide();
-                    $('.success-message').hide();
-                    $('.subscribe form').hide();
-                    $('.success-message').html(json.message);
-                    $('.success-message').fadeIn();
-                }
-            }
-        });
-    });
-    
-    /*
-	    Contact form
-	*/
-    $('.contact-form form input[type="text"], .contact-form form textarea').on('focus', function() {
-    	$('.contact-form form input[type="text"], .contact-form form textarea').removeClass('contact-error');
-    });
-	$('.contact-form form').submit(function(e) {
-		e.preventDefault();
-	    $('.contact-form form input[type="text"], .contact-form form textarea').removeClass('contact-error');
-	    var postdata = $('.contact-form form').serialize();
-	    $.ajax({
-	        type: 'POST',
-	        url: 'assets/contact.php',
-	        data: postdata,
-	        dataType: 'json',
-	        success: function(json) {
-	            if(json.emailMessage != '') {
-	                $('.contact-form form .contact-email').addClass('contact-error');
-	            }
-	            if(json.subjectMessage != '') {
-	                $('.contact-form form .contact-subject').addClass('contact-error');
-	            }
-	            if(json.messageMessage != '') {
-	                $('.contact-form form textarea').addClass('contact-error');
-	            }
-	            if(json.emailMessage == '' && json.subjectMessage == '' && json.messageMessage == '') {
-	                $('.contact-form form').fadeOut('fast', function() {
-	                    $('.contact-form').append('<p>Thanks for contacting us! We will get back to you very soon.</p>');
-	                });
-	            }
-	        }
-	    });
-	});
-
-    
 });
 
+function check() {
+    if (document.info_form.del_name.value == '') {
+    alert ('请输入你的姓名 Please input your name');
+    document.info_form.del_name.focus();
+    return false;
+    }
+else if (document.info_form.del_sex.options[0].selected) {
+    alert ('请选择你的性别 Please select your sex');
+    document.info_form.del_sex.focus();
+    return false;
+    }
+else if (isNaN(parseFloat(document.info_form.del_age.value))) {
+    alert ('年龄请输入数字 Please input a number for age');
+    document.info_form.del_name.focus();
+    return false;
+    }
+else if (document.info_form.del_school.value == '') {
+    alert ('请输入你的在读学校 Please input your school');
+    document.info_form.del_school.focus();
+    return false;
+    }
+else if (document.info_form.del_grade.options[0].selected) {
+    alert ('请选择你的在读年级 Please select your grade');
+    document.info_form.del_grade.focus();
+    return false;
+    }
+else if (document.info_form.del_class.options[0].selected) {
+    alert ('请选择你的代表类别 Please select your delegation class');
+    document.info_form.del_grade.focus();
+    return false;
+    }
+else if (document.info_form.del_mob1.value == '') {
+    alert ('请至少填一个手机号 Please input at least one mobile phone number');
+    document.info_form.del_mob1.focus();
+    return false;
+    }
+else if (document.info_form.del_qq.value == '') {
+    alert ('请输入你的QQ号 Please input your QQ number');
+    document.info_form.del_qq.focus();
+    return false;
+    }
+else if (document.info_form.del_email.value == '') {
+    alert ('请输入你的电子邮箱 Please input your email address');
+    document.info_form.del_email.focus();
+    return false;
+    }
+else if (isNaN(parseFloat(document.info_form.del_time.value))) {
+    alert ('请输入你的模联年龄 Please input your time in ModelUN');
+    document.info_form.del_time.focus();
+    return false;
+    }
+else if (document.info_form.del_resume.value == '') {
+    alert ('请填写你的模联简历 Please fill out your ModelUN resume');
+    document.info_form.del_resume.focus();
+    return false;
+    }
+else if (!(document.info_form.del_ever_attend[0].checked || document.info_form.del_ever_attend[1].checked)) {
+    alert ('我们重视你始终如一的关注，请告诉我们你是否参加过UMUNC的会议 We appreciate your everlasting commitment. ' +
+        'Please let us know your experience with UMUNC.');
+    return false;
+    }
+else if (document.info_form.del_choice.options[0].selected) {
+    alert ('请告诉我们你最想去的委员会 Please let us know which committee do you want to go most');
+    document.info_form.del_choice.focus();
+    return false;
+    }
+else {
+    return true;
+    }
+}

@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>readme.txt</title>
+<meta name="description" content="This file was exported from WriteMonkey editor.">
+<meta name='author' value='max albert'>
+<style type="text/css">
+
+
+@import "http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,700,700italic|Open+Sans:400,600";
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*::-moz-selection {
+    background: none repeat scroll 0 0 lightblue;
+}
+body {
+    color: #323232;
+    counter-reset: figs;
+    font-family: Merriweather;
+    padding-top: 4rem;
+	width: 100%;
+}
+@media (min-width: 30em){
+	.wrap{width: 70%; margin: 0 auto}
+}
+h1, h2, p {
+    -moz-font-feature-settings: "dlig";
+    color: #1E1E1E;
+}
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+    font-family: 'open sans', sans-serif;
+	background: url(banner.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	padding-left: 15%;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+h2 {
+    color: rgb(60,60,60);
+    font-family: open sans;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: .6em;
+    margin-top: 1em;
+}
+a:hover, a:focus {
+    opacity: 1;
+    text-decoration: underline;
+}
+a:link, a:visited {
+    color: cornflowerblue;
+    opacity: 0.8;
+    text-decoration: none;
+}
+ol li {
+    margin-bottom: 0.5em;
+}
+ol {
+    list-style: decimal inside none;
+    padding-left: 10%;
+}
+h3 {
+    margin-top: 2em;
+}
+p, li {
+    font-size: 1rem;
+    line-height: 1.70em;
+    margin-bottom: 1em;
+}
+figure {
+    counter-increment: figs;
+    border: 1px solid rgb(250, 250, 250);
+    margin-bottom: 2em;
+}
+figcaption {
+    background: rgb(250,250,250);
+    color: #787878;
+    font-size: .8rem;
+    padding: 1em;
+}
+
+li p {
+	display: inline;
+}
+
+li {
+	font-size: 1rem;
+}
+
+figcaption:before {
+    color: #323232;
+    content: "fig. " counter(figs, decimal) " ";
+    font-weight: 600;
+}
+body > ul {
+    list-style: disc inside none;
+    margin-top: 1em;
+    padding-left: 1em;
+}
+li ul {
+    margin-left: 2em;
+}
+ul {
+    margin-bottom: 1em;
+}
+.meta {
+	white-space: pre;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+	color: lightgray;
+	font-size: .8em;
+	font-family: lucida sans mono, lucida console, consolas;
+}
+
+h4 {
+    font-family: open sans;
+    font-size: 19px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+h3 {
+    font-family: open sans;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}
+code, pre {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #E6E6E6;
+    font-family: consolas;
+}
+
+pre code {
+	border: none;
+}
+
+pre {
+	padding: 1em;
+	margin-bottom: 1rem;
+}
+blockquote {
+    background: none repeat scroll 0 0 #F5F5F5;
+    box-shadow: 6px 0 0 cornflowerblue inset;
+    font-style: italic;
+    padding: 1em 1em .1em 1em;
+}
+figure {
+    page-break-inside: avoid;
+}
+h2, h3, h4, h5, h6, ol, ul {
+    border: 0 none !important;
+    padding-left: 0 !important;
+}
+p {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+li {
+    margin-bottom: .5em;
+}
+
+.icon {
+	position: fixed;
+	top: .5rem;
+	left: 3rem;
+	width: 3rem;
+}
+
+.note {
+	display: inline-block;
+	font-family: open sans;
+	font-size: .8rem;
+	width: 50%;
+	padding: 1rem;
+	float: right;
+	margin-left: 2rem;
+	margin-right: -4rem;
+	background: rgb(250,250,250);
+	
+</style>
+
+</head>
+<body>
+<p><img src="icon.png" alt="icon" class='icon'></p>
+<h1>Simple Responsive Timeline</h1>
+<div class='wrap'>
+<p>by Max Albert, August 2013.</p>
+<p>Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form over here. Thanks so much!</p>
+<h2>Getting Started</h2>
+<p>Getting the timeline up and running on your page is pretty simple. You'll need FTP access or some other way to edit the files that power your website.</p>
+<p><aside class='note'>
+The stylesheet makes the timeline look awesome. It takes care of the fonts, colors and layout of our timeline.
+</aside></p>
+<p>First of all, you'll have to link up the timeline's stylesheet on your site. In order to do that, open the <code>stylesheets</code> folder and copy the <code>timeline.css</code> file to the stylesheets folder on your own server. You'll probably want to use an FTP program for that, <em>FileZilla</em> is a free one that I can recommend. Once that's done, we can continue with the next step.</p>
+<p><aside class='note'>In case you are using Wordpress, look for the header.php file in your templates directory, and open that with a text editor.</aside> </p>
+<p>Open the html file you'd like to add the timeline to in a text editor. Then search for the line that reads <code>&lt;/head&gt;</code>, and insert the following code right above:</p>
+<pre><code>&lt;link href='stylesheets/timeline.css' rel='stylesheet'&gt;&lt;/link&gt;
+</code></pre>
+
+<p>You might have to change the file path, depending on where you put the <code>style.css</code> file on your server teh previous step.</p>
+<p><aside class='note'>
+If you're on Wordpress, open the post or page you'd like the timeline to appear on, and switch from the visual editor to the text editor. You can do so by using the buttons above the big textarea. After you've done that, you can set up your timeline just as described below.
+</aside></p>
+<p>Now we're ready to code up the timeline itself. Open the HTML file you'd like the timeline to appear in in a text editor, and copy &amp; paste the following code somwhere between <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code>.</p>
+<pre><code>&lt;ol class='timeline timeline-horizontal'&gt;
+        &lt;li&gt;
+            &lt;time&gt;2013-04-26&lt;/time&gt;
+            &lt;article&gt;
+                &lt;h2&gt;Some cool Event&lt;/h2&gt;
+                &lt;p&gt;Here goes your content&lt;/p&gt;
+                &lt;footer&gt;
+                    &lt;p&gt;Here goes your meta information&lt;/p&gt;
+                &lt;/footer&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<p>And there you go! You have a fancy, responsive timeline. You should go ahead and add some more content. Do that by simply adding code bits with the following structure between <code>&lt;ol class='timeline timeline-horizontal'&gt;</code> and <code>&lt;/ol&gt;</code>:</p>
+<pre><code>&lt;li&gt;
+    &lt;time&gt;2013-04-26&lt;/time&gt;
+            &lt;article&gt;
+                &lt;h2&gt;Here goes the title of the event&lt;/h2&gt;
+                &lt;p&gt;Here goes your content&lt;/p&gt;
+                &lt;footer&gt;
+            &lt;p&gt;Here goes your meta information&lt;/p&gt;
+        &lt;/footer&gt;
+    &lt;/article&gt;
+&lt;/li&gt;
+</code></pre>
+
+<p>Have fun :)</p>
+<h2>HTML Structure</h2>
+<p>This template is based on very clean, semantic HTML. There are no additional elements, all the styling is done through CSS.</p>
+<p>The timeline is marked up via an ordered list. Each item in that ordered list represents one item in the timeline.</p>
+<pre><code>&lt;ol class='timeline timeline-horizontal'&gt;
+        &lt;li&gt;
+            &lt;time&gt;2013-04-26&lt;/time&gt;
+            &lt;article&gt;
+                &lt;h2&gt;Some cool Event&lt;/h2&gt;
+                &lt;p&gt;Here goes your content&lt;/p&gt;
+                &lt;footer&gt;
+                    &lt;p&gt;Here goes your meta information&lt;/p&gt;
+                &lt;/footer&gt;
+            &lt;/article&gt;
+        &lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<p>Every item has a date and a block of content associated with it. The date is stored in the <code>&lt;time&gt;</code> tag within each list item. The content is placed in the <code>&lt;article&gt;</code> tag within each item. That article tag can contain any HTML content you can think of, such as text, images, videos, quotes and audio elements.</p>
+<p>The <code>&lt;footer&gt;</code> element in each article is meant for meta information related to the main content of the item. That could be, for example, a list of tags, the name of the author, or the place where the event too place.</p>
+<h3>Switching Layouts</h3>
+<p>This template contains two different layouts: horizontal and vertical. To switch layouts, all you have to do is set the class attribute on the <code>&lt;ol&gt;</code> tag to either <code>class='timeline timeline-horizontal'</code> (for the horizontal layout) or <code>class='timeline timeline-vertical'</code> (for the vertical layout).</p>
+<p>Both layouts work on both desktop and mobile devices.</p>
+<h2>CSS</h2>
+<h3>Changing Colors</h3>
+<p>If you'd like to change the color of the labels (wich is blue by default), you'll have to open the style.css file in the stylesheets folder in a text editor.</p>
+<p>Then, simply search for all instances of <code>#5F8AE8</code> in the stylesheet and replace it with whatever color value you like, for example <code>pink</code></p>
+<h3>Changing Fonts</h3>
+<p>The font for the entire template is defined right at the beginnig. In order to change the font, you'll need to open the style.css file in a text editor and search for the following snippet (It's right at the beginning)</p>
+<pre>
+<code>
+.timeline {
+  padding: 1rem;
+  font-family: helvetica; //Edit this line
+  position: relative;
+}
+</code>
+</pre>
+<p>To change the font, simply change font-family: helvetica to whatever font you like, for example: font-family: georgia</p>
+<h2>SASS (for nerds)</h2>
+<p>I'm using Sass and Compass in this template. If you're a developer, you'll probably prefer editing those files and recompile the CSS. Here's a few tips for you.</p>
+<ul>
+<li>
+<p>I'm using compass. If you haven't already, you need to install it via gem install compass in order to compile the files.</p>
+</li>
+<li>
+<p>I'm using three different files.</p>
+<ul>
+<li>style.scss does nothing but import the two other files, in addition to compass/css3, wich helps me with a ton of vendor prefixes and stuff.</li>
+<li>vars.scss contains a couple of custom mixins, as well as some color variables at the top.</li>
+<li>timeline.scss finally contains all the rules to make the timeline happen. The file is seperated into roughly four parts. Firstly, I reset paddings and margins and apply some basic styling. Secondly, I define the general styling of the timeline, fo example typography and colors that always apply, no matter wich layout you select. In the third an fourth part, I define the different layouts.</li>
+</ul>
+</li>
+</ul>
+<h2>Thanks again :)</h2>
+<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+<p>max.</p>
+</div>
+</body>
+</html>

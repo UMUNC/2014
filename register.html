@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>UMUNC | 2014 Conference</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS Global Compulsory-->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/headers/header1.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="favicon.ico">        
+    <!-- CSS Implementing Plugins -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- CSS Page Style -->    
+    <link rel="stylesheet" href="assets/css/pages/page_log_reg_v2.css">    
+    <!-- CSS Theme -->    
+    <link rel="stylesheet" href="assets/css/themes/blue.css" id="style_color">
+    <link rel="stylesheet" href="assets/css/themes/headers/header1-blue.css" id="style_color-header-1">
+
+</head> 
+
+<body>
+
+<!--=== Content Part ===-->    
+<div class="container">
+    <!--Reg Block-->
+    <div class="reg-block">
+        <div class="reg-block-header">
+            <h2>Register for the UMUNC National Conference 2014</h2>
+        </div>
+        <div class="col-md-12" id="error_banner">
+            <div class="alert alert-danger fade in">
+                <strong>Oh snap!</strong> Change a few things up and try submitting again.
+            </div>
+            <div class="alert alert-danger fade in">
+                <strong>Oh snap!</strong> Change a few things up and try submitting again.
+            </div>
+        </div>
+        <form name="info_form" class="form-horizontal" role="form" method="post" action="" accept-charset="utf-8">
+            <div class="form-group">
+                <label class="col-lg-2 control-label">姓名 Name</label>
+                <div class="col-lg-10">
+                    <input type='text' name='del_name' size='20' maxlength='40' required class="form-control" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">性别 Sex</label>
+                <div class="col-lg-10">
+                    <select name='del_sex' required class="form-control">
+                        <option value='none'> &nbsp; &lt;请选择 Select One> &nbsp; </option>
+                        <option value='male'>男 Male</option>
+                        <option value='female'>女 Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">年龄 Age</label>
+                <div class="col-lg-10">
+                    <input type='text' name='del_age' size='20' maxlength='3' required class="form-control" placeholder="Age">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">在读学校 School</label>
+                <div class="col-lg-10">
+                    <input type='text' name='del_school' size='20' maxlength='150' required class="form-control" placeholder="School">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">在读年级 Grade</label>
+                <div class="col-lg-10">
+                    <select name='del_grade' required class="form-control">
+                        <option value='none'> &nbsp; &lt;请选择 Select One> &nbsp; </option>
+                        <option value='mid-school'>初中及以下 Middle school and under</option>
+                        <option value='g10'>高一 Grade 10</option>
+                        <option value='g11'>高二 Grade 11</option>
+                        <option value='g12'>高三 Grade 12</option>
+                        <option value='college'>大学及以上 College and above</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">代表类别 Delegation Class</label>
+                <div class="col-lg-10">
+                    <select name='del_class' required class="form-control">
+                        <option value='none'> &nbsp; &lt;请选择 Select One> &nbsp; </option>
+                        <option value='group'>代表团 Group Delegation</option>
+                        <option value='single'>个人代表 Single Delegation</option>
+                    </select>
+                </div>
+            </div>
+
+            <hr>
+
+            <p>联系方式 Contact Method</p>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label">手机 Mobile Phone</label>
+                <div class="col-lg-10">
+                    <input type='text' name='del_mob1' size='20' maxlength='20' required class="form-control" placeholder="Mobile Phone">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">备选手机 Alternative Mobile Phone</label>
+                <div class="col-lg-10">
+                    <input type='text' name='del_mob2' size='20' maxlength='20' class="form-control" placeholder="Alternative Mobile Phone">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">QQ</label>
+                <div class="col-lg-10">
+                    <input type='text' name='del_qq' size='20' maxlength='20' required class="form-control" placeholder="QQ">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">微信 WeChat</label>
+                <div class="col-lg-10">
+                    <input type='text' name='del_wechat' size='20' maxlength='20' class="form-control" placeholder="WeChat">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">邮箱 Email</label>
+                <div class="col-lg-10">
+                    <input type='email' name='del_email' size='20' maxlength='30' required class="form-control" placeholder="Email">
+                </div>
+            </div>
+
+            <hr>
+
+            <p>模联相关信息 MUN-related Information</p>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label">模联年龄 (接触模联的时间) Time in ModelUN</label>
+                <div class="col-lg-10">
+                    <input type='text' name='del_time' size='20' maxlength='20' required class="form-control" placeholder="Time in ModelUN">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">模联履历 ModelUN Resume</label>
+                <div class="col-lg-10">
+                    <textarea name='del_resume' cols='50' rows='15' required class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">是否参加过UMUNC组织过的会议 Have you ever attended a UMUNC Conference?</label>
+                <div class="col-lg-2">
+                    <div class="radio">
+                        <label>
+                            <input type='radio' name='del_ever_attend' value='yes' id="attend_yes">
+                            是 Yes
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <input value="" type="text" name="del_attend_name" size="20" maxlength="30" class="form-control" placeholder="Name of Conference(s)" id="attend_name">
+                </div>
+                <div class="col-lg-10">
+                    <div class="radio">
+                        <label>
+                            <input type='radio' name='del_ever_attend' value='no' checked id="attend_no">
+                            否 No
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">委员会志愿 Choice of Committee</label>
+                <div class="col-lg-10">
+                    <select name='del_choice' required class="form-control">
+                        <option value='none'> &nbsp; &lt;请选择 Select One> &nbsp; </option>
+                        <option value='gaus'>高斯系统 General Assembly United System (GAUS)</option>
+                        <option value='cabinet'>内阁系统 Cabinet System</option>
+                    </select>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <button type="submit" class="btn-u btn-block">注册会议 Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--End Reg Block-->
+</div><!--/container-->
+<!--=== End Content Part ===-->
+
+<!-- JS Global Compulsory -->           
+<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/hover-dropdown.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<!-- JS Implementing Plugins -->           
+<script type="text/javascript" src="assets/plugins/countdown/jquery.countdown.js"></script>
+<script type="text/javascript" src="assets/plugins/backstretch/jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+    $.backstretch([
+      "assets/img/bg/5.jpg",
+      "assets/img/bg/4.jpg",
+      ], {
+        fade: 1000,
+        duration: 7000
+    });
+</script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+    });
+</script>
+<!-- Custom Javascript -->
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+<![endif]-->
+
+</body>
+</html> 
