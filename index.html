@@ -346,8 +346,19 @@
         Index.initLayerSlider();
 
         // Custom JavaScripts
-        var img = "<img src='assets/img/wechat-barcode.jpg' alt='WeChat Barcode' class='img-responsive'>";
-        $("#barcode").popover({container: 'body' ,content: img, html: true, placement: 'top', trigger: 'hover', delay: {show: 500, hide: 100}});
+        var img = "<img src='assets/img/wechat-barcode.jpg' alt='WeChat Barcode' class='img-responsive' width='344' height='344'>";
+
+        var barcode = $("#barcode");
+        barcode.popover({container: 'body' ,content: img, html: true, placement: 'top', trigger: 'hover', delay: {show: 500, hide: 100}});
+        /*
+        barcode.hover(function(){
+            var image = new Image();
+            image.onload = function(){
+                barcode.popover('toggle');
+                image.src = "assets/img/wechat-barcode.jpg";
+            };
+        });
+        */
     });
 </script>
 <!--[if lt IE 9]>
