@@ -16,7 +16,7 @@
     <file path="/index.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396938705856" ignored="false" />
     <file path="/commentedOut.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395537952193" ignored="false" />
     <file path="/subscribe.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395655346688" ignored="false" />
-    <file path="/about.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396944693323" ignored="false" />
+    <file path="/about.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396945158859" ignored="false" />
     <file path="/history.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396939463374" ignored="false" />
     <file path="/register.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396922304994" ignored="false" />
     <file path="/style.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396620420444" ignored="false" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="about.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="124" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.46191248">
+            <state line="224" column="60" selection-start="10039" selection-end="10039" vertical-scroll-proportion="1.0486224">
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -622,7 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="124" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.46191248">
+        <state line="224" column="60" selection-start="10039" selection-end="10039" vertical-scroll-proportion="1.0486224">
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
