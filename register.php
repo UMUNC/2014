@@ -50,9 +50,9 @@ if ($_POST) {
     // sql string
     $val = "'$del_name', '$del_sex', '$del_age', '$del_school', '$del_grade', '$del_class', '$del_mob1', '$del_mob2', '$del_qq', '$del_wechat', '$del_email', '$del_time', '$del_resume', '$del_ever_attend', '$del_attend_name', '$del_choice', now()";
 
-    // Connect database server
+    // Connect to database server
     if (!($link = connect_db())) {
-        echo "error1";
+        echo "connect to database error";
         exit(1);
     }
 
@@ -64,7 +64,7 @@ if ($_POST) {
     // Insert into database
     if (!($result = mysql_query("insert into national_2014 values ($val)"))) {
         //print ("query failed " . mysql_error());
-        echo "error2";
+        echo "query failed";
         exit(1);
     }
 
@@ -73,6 +73,6 @@ if ($_POST) {
 }
 else {
     // Return error
-    echo "error0";
+    echo "no http post";
 }
 ?>
