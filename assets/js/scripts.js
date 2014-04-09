@@ -57,7 +57,6 @@ $(document).ready(function(){
                 dataType:   'text',
                 success:    function(text) {
                     if (text == "success") {
-                        error_banner.hide();
                         $("#info").hide();
                         $("#success_message").fadeIn();
                         $("#button_back").fadeIn();
