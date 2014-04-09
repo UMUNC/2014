@@ -8,6 +8,7 @@
 
 $(document).ready(function(){
 
+    // Handle the radio-input field relation
     $("#attend_name").hide();
 
     $("#attend_yes").click(function(){
@@ -23,75 +24,73 @@ $(document).ready(function(){
         });
     });
 
+    // Handle input validation, error popup, and success message
+    // Hide Ajax elements
+    $("#error_banner").hide();
+    $("#success_message").hide();
+    $("#button_back").hide();
+
+    $("#info").submit(function(ev){
+
+        ev.preventDefault();
+
+        // Validate input
+        var error = check();
+        console.log("error msg: %s", error);
+        if (error != "") {
+            var error_banner = $("#error_banner");
+
+            error_banner.hide();
+            error_banner.html(error);
+            error_banner.fadeIn(function(){
+                $('html, body').animate({ scrollTop: error_banner.offset().top }, 'slow');
+            });
+        }
+        else {
+            $("#error_banner").hide();
+
+            var post_data = $("#info").serialize();
+            $.ajax({
+                type:       'POST',
+                url:        'register.php',
+                data:       post_data,
+                dataType:   'json',
+                success:    function(json) {
+
+                }
+            });
+        }
+
+        console.log("Form submitted.")
+    });
 });
 
 function check() {
-    if (document.info_form.del_name.value == '') {
-    alert ('请输入你的姓名 Please input your name');
-    document.info_form.del_name.focus();
-    return false;
+
+    var error_message = "";
+
+    if ($("[name=del_sex] option:selected").val() == "none") {
+    error_message += '<div class="alert alert-danger fade in"><strong>Oh snap!</strong>你没有选择性别(抱歉我们不接受第三性别。。)</div>';
     }
-else if (document.info_form.del_sex.options[0].selected) {
-    alert ('请选择你的性别 Please select your sex');
-    document.info_form.del_sex.focus();
-    return false;
+    if (isNaN(parseFloat($("[name=del_age]").val()))) {
+    error_message += '<div class="alert alert-danger fade in"><strong>Oh snap!</strong>年龄不是数字</div>';
     }
-else if (isNaN(parseFloat(document.info_form.del_age.value))) {
-    alert ('年龄请输入数字 Please input a number for age');
-    document.info_form.del_name.focus();
-    return false;
+    if ($("[name=del_grade] option:selected").val() == "none") {
+    error_message += '<div class="alert alert-danger fade in"><strong>Oh snap!</strong>你没有选择你的年级</div>';
     }
-else if (document.info_form.del_school.value == '') {
-    alert ('请输入你的在读学校 Please input your school');
-    document.info_form.del_school.focus();
-    return false;
+    if ($("[name=del_class] option:selected").val() == "none") {
+    error_message += '<div class="alert alert-danger fade in"><strong>Oh snap!</strong>你没有选择代表类别</div>';
     }
-else if (document.info_form.del_grade.options[0].selected) {
-    alert ('请选择你的在读年级 Please select your grade');
-    document.info_form.del_grade.focus();
-    return false;
+    if (isNaN(parseFloat($("[name=del_mob1]").val()))) {
+        error_message += '<div class="alert alert-danger fade in"><strong>Oh snap!</strong>手机号不是数字</div>';
     }
-else if (document.info_form.del_class.options[0].selected) {
-    alert ('请选择你的代表类别 Please select your delegation class');
-    document.info_form.del_grade.focus();
-    return false;
+    if (isNaN(parseFloat($("[name=del_qq]").val()))) {
+        error_message += '<div class="alert alert-danger fade in"><strong>Oh snap!</strong>QQ号不是数字</div>';
     }
-else if (document.info_form.del_mob1.value == '') {
-    alert ('请至少填一个手机号 Please input at least one mobile phone number');
-    document.info_form.del_mob1.focus();
-    return false;
+    if ($("[name=del_choice] option:selected").val() == "none") {
+    error_message += '<div class="alert alert-danger fade in"><strong>Oh snap!</strong>你没有选择意向委员会</div>';
     }
-else if (document.info_form.del_qq.value == '') {
-    alert ('请输入你的QQ号 Please input your QQ number');
-    document.info_form.del_qq.focus();
-    return false;
-    }
-else if (document.info_form.del_email.value == '') {
-    alert ('请输入你的电子邮箱 Please input your email address');
-    document.info_form.del_email.focus();
-    return false;
-    }
-else if (isNaN(parseFloat(document.info_form.del_time.value))) {
-    alert ('请输入你的模联年龄 Please input your time in ModelUN');
-    document.info_form.del_time.focus();
-    return false;
-    }
-else if (document.info_form.del_resume.value == '') {
-    alert ('请填写你的模联简历 Please fill out your ModelUN resume');
-    document.info_form.del_resume.focus();
-    return false;
-    }
-else if (!(document.info_form.del_ever_attend[0].checked || document.info_form.del_ever_attend[1].checked)) {
-    alert ('我们重视你始终如一的关注，请告诉我们你是否参加过UMUNC的会议 We appreciate your everlasting commitment. ' +
-        'Please let us know your experience with UMUNC.');
-    return false;
-    }
-else if (document.info_form.del_choice.options[0].selected) {
-    alert ('请告诉我们你最想去的委员会 Please let us know which committee do you want to go most');
-    document.info_form.del_choice.focus();
-    return false;
-    }
-else {
-    return true;
-    }
+
+    console.log("msgin: %s", error_message);
+    return error_message;
 }
