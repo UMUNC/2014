@@ -20,8 +20,6 @@ function connect_db () {
     }
 }
 
-echo "eee";
-
 // Begin process
 
 if ($_POST) {
@@ -49,7 +47,7 @@ if ($_POST) {
 
     // Connect database server
     if (!($link = connect_db())) {
-        echo "connect error";
+        echo "error1";
         exit(1);
     }
 
@@ -60,12 +58,16 @@ if ($_POST) {
 
     // Insert into database
     if (!($result = mysql_query("insert into national_2014 values ($val)"))) {
-        print ("query failed " . mysql_error());
+        //print ("query failed " . mysql_error());
+        echo "error2";
         exit(1);
     }
 
+    // Return success
+    echo "success";
 }
 else {
-    echo "err";
+    // Return error
+    echo "error0";
 }
 ?>

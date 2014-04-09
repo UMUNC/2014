@@ -35,9 +35,8 @@ $(document).ready(function(){
         ev.preventDefault();
 
         // Validate input
-        //var error = check();
-        var error = "";
-        console.log("error msg: %s", error);
+        var error = check();
+        //console.log("error msg: %s", error);
         if (error != "") {
             var error_banner = $("#error_banner");
 
@@ -56,23 +55,24 @@ $(document).ready(function(){
                 url:        'register.php',
                 data:       post_data,
                 dataType:   'text',
-                success:    function(json) {
-                    console.log("success");
-                    console.log(json);
+                success:    function(text) {
+                    if (text == "success") {
+                        error_banner.hide();
+                        $("#info").hide();
+                        $("#reg").hide();
+                        $("#success_message").fadeIn();
+                        $("#button_back").fadeIn();
+                    }
+                    else {
+                        console.log(text);
+                    }
                 },
-                error:      function(json) {
-                    console.log("error:");
-                    console.log(json);
+                error:      function(text) {
+                    console.log("Ajax error:");
+                    console.log(text);
                 }
-            })
-                .done(function(json){
-                    console.log("done");
-                    console.log(json);
-                });
-            console.log("ajax finished");
+            });
         }
-
-        console.log("Form submitted.")
     });
 });
 
@@ -102,6 +102,6 @@ function check() {
     error_message += '<div class="alert alert-danger fade in"><strong>Oh snap!</strong>你没有选择意向委员会</div>';
     }
 
-    console.log("msgin: %s", error_message);
+    //console.log("msgin: %s", error_message);
     return error_message;
 }

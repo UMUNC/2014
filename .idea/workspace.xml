@@ -18,15 +18,15 @@
     <file path="/subscribe.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395655346688" ignored="false" />
     <file path="/about.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396945158859" ignored="false" />
     <file path="/history.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397008898322" ignored="false" />
-    <file path="/register.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397013627229" ignored="false" />
+    <file path="/register.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397040909570" ignored="false" />
     <file path="/style.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396620420444" ignored="false" />
     <file path="/bootstrap.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396693126295" ignored="false" />
     <file path="/tech.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396944206696" ignored="false" />
-    <file path="/scripts.js" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397019950536" ignored="false" />
+    <file path="/scripts.js" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397040984366" ignored="false" />
     <file path="/app.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396930658297" ignored="false" />
     <file path="/history-v2.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397007991461" ignored="false" />
     <file path="/basic.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397007680760" ignored="false" />
-    <file path="/register.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397019455295" ignored="false" />
+    <file path="/register.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397040755306" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +49,34 @@
       <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="27" selection-start="8848" selection-end="8848" vertical-scroll-proportion="-97.5">
+            <state line="192" column="55" selection-start="9070" selection-end="9081" vertical-scroll-proportion="-20.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="6" selection-start="3414" selection-end="3414" vertical-scroll-proportion="2.0162482">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+        <entry file="file://$PROJECT_DIR$/2014/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="38" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0">
+            <state line="123" column="12" selection-start="4467" selection-end="4467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="36" selection-start="329" selection-end="329" vertical-scroll-proportion="0.2109375">
+            <state line="68" column="6" selection-start="1907" selection-end="1907" vertical-scroll-proportion="-25.0">
               <folding>
                 <element signature="e#6#164#0" expanded="true" />
               </folding>
@@ -79,15 +88,6 @@
         <entry file="file://$PROJECT_DIR$/2014/assets/subscribe.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="58" selection-start="1284" selection-end="1284" vertical-scroll-proportion="-8.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2014/assets/js/scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="12" selection-start="4467" selection-end="4467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,9 +132,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/tech.html" />
+        <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
-        <option value="$PROJECT_DIR$/register.php" />
       </list>
     </option>
   </component>
@@ -578,6 +578,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="6" selection-start="1907" selection-end="1907" vertical-scroll-proportion="-25.0">
+          <folding>
+            <element signature="e#6#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2014/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="12" selection-start="4467" selection-end="4467" vertical-scroll-proportion="0.0">
@@ -585,26 +594,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="38" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="27" selection-start="8848" selection-end="8848" vertical-scroll-proportion="-97.5">
+        <state line="192" column="55" selection-start="9070" selection-end="9081" vertical-scroll-proportion="-20.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="329" selection-end="329" vertical-scroll-proportion="0.2109375">
-          <folding>
-            <element signature="e#6#164#0" expanded="true" />
-          </folding>
+        <state line="104" column="6" selection-start="3414" selection-end="3414" vertical-scroll-proportion="2.0162482">
+          <folding />
         </state>
       </provider>
     </entry>
