@@ -102,8 +102,8 @@ function Timeline(element, data, undefined) {
     this._default_element_data = {
         type:        'blog_post',      // blog_post   gallery    slider   iframe
         date:        '2000-01-01',     // blog_post   gallery    slider   iframe
-        dateFormat:  'DD MMMM YYYY',   // blog_post   gallery    slider   iframe
-        width:       400,              // blog_post   gallery    slider   iframe
+        dateFormat:  'MMMM DD YYYY',   // blog_post   gallery    slider   iframe
+        width:       80%,              // blog_post   gallery    slider   iframe
         title:       null,             // blog_post   gallery    slider   iframe
         content:     null,             // blog_post
         image:       null,             // blog_post
