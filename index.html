@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">    	
     <link rel="stylesheet" href="assets/plugins/bxslider/jquery.bxslider.css">
     <link rel="stylesheet" href="assets/plugins/layer_slider/css/layerslider.css" type="text/css">
-    <!-- CSS Theme -->    
+    <!-- CSS Theme -->
     <link rel="stylesheet" href="assets/css/themes/blue.css" id="style_color">
     <link rel="stylesheet" href="assets/css/themes/headers/header1-blue.css" id="style_color-header-1">
 </head>	
@@ -305,21 +305,16 @@
         App.initSliders();
         App.initBxSlider();
         Index.initLayerSlider();
-
-        // Custom JavaScripts
+    });
+</script>
+<!-- Custom JavaScript -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        // Popover barcode
         var img = "<img src='assets/img/wechat-barcode.jpg' alt='WeChat Barcode' class='img-responsive' width='344' height='344'>";
 
         var barcode = $("#barcode");
         barcode.popover({container: 'body' ,content: img, html: true, placement: 'top', trigger: 'hover', delay: {show: 500, hide: 100}});
-        /*
-        barcode.hover(function(){
-            var image = new Image();
-            image.onload = function(){
-                barcode.popover('toggle');
-                image.src = "assets/img/wechat-barcode.jpg";
-            };
-        });
-        */
     });
 </script>
 <!--[if lt IE 9]>

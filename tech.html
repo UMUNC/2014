@@ -268,6 +268,16 @@
         App.initSliders();        
     });
 </script>
+<!-- Custom JavaScript -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        // Popover barcode
+        var img = "<img src='assets/img/wechat-barcode.jpg' alt='WeChat Barcode' class='img-responsive' width='344' height='344'>";
+
+        var barcode = $("#barcode");
+        barcode.popover({container: 'body' ,content: img, html: true, placement: 'top', trigger: 'hover', delay: {show: 500, hide: 100}});
+    });
+</script>
 <!--[if lt IE 9]>
     <script src="assets/plugins/respond.js"></script>
 <![endif]-->
