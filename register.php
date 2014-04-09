@@ -39,7 +39,12 @@ if ($_POST) {
     $del_time = $_POST['del_time'];
     $del_resume = $_POST['del_resume'];
     $del_ever_attend = $_POST['del_ever_attend'];
-    $del_attend_name = $_POST['del_attend_name'];
+    $del_attend_name = "";
+    foreach($_POST['del_attend_name'] as $name)
+    {
+        $del_attend_name .= $name;
+        $del_attend_name .= ", ";
+    }
     $del_choice = $_POST['del_choice'];
 
     // sql string

@@ -16,12 +16,7 @@ $(document).ready(function(){
     });
 
     $("#attend_no").click(function(){
-
-        var input_field = $("#attend_name");
-
-        input_field.fadeOut("slow", function(){
-            input_field.val("");
-        });
+        $("#attend_name").fadeOut("slow");
     });
 
     // Handle input validation, error popup, and success message
