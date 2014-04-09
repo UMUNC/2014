@@ -78,7 +78,7 @@ fputcsv($out, $header);
 
 // write data line by line
 while ($row = mysql_fetch_row($result)) {
-    fputcsv($out, $header);
+    fputcsv($out, $row);
 }
 
 fclose($out);
