@@ -59,6 +59,8 @@ if (!($link = connect_db())) {
 
 // Select database
 mysql_select_db("umunc_v2");
+mysql_query("SET CHARACTER SET utf8");
+mysql_query("SET NAMES utf8");
 mysql_query("SET character_set_client=utf8");
 mysql_query("SET character_set_connection=utf8");
 
