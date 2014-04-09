@@ -35,7 +35,8 @@ $(document).ready(function(){
         ev.preventDefault();
 
         // Validate input
-        var error = check();
+        //var error = check();
+        var error = "";
         console.log("error msg: %s", error);
         if (error != "") {
             var error_banner = $("#error_banner");
@@ -54,11 +55,21 @@ $(document).ready(function(){
                 type:       'POST',
                 url:        'register.php',
                 data:       post_data,
-                dataType:   'json',
+                dataType:   'text',
                 success:    function(json) {
-
+                    console.log("success");
+                    console.log(json);
+                },
+                error:      function(json) {
+                    console.log("error:");
+                    console.log(json);
                 }
-            });
+            })
+                .done(function(json){
+                    console.log("done");
+                    console.log(json);
+                });
+            console.log("ajax finished");
         }
 
         console.log("Form submitted.")
