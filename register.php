@@ -31,6 +31,15 @@ if ($_POST) {
     $del_school = $_POST['del_school'];
     $del_grade = $_POST['del_grade'];
     $del_class = $_POST['del_class'];
+
+    // Retrieve group contacts
+    $team_name = $_POST['team_name'];
+    $team_leader = $_POST['team_leader'];
+    $team_su = $_POST['team_su'];
+    $team_su_mob = $_POST['team_su_mob'];
+    $team_emg = $_POST['team_emg'];
+    $team_emg_mob = $_POST['team_emg_mob'];
+
     $del_mob1 = $_POST['del_mob1'];
     $del_mob2 = $_POST['del_mob2'];
     $del_qq = $_POST['del_qq'];
@@ -48,7 +57,7 @@ if ($_POST) {
     $del_choice = $_POST['del_choice'];
 
     // sql string
-    $val = "'$del_name', '$del_sex', '$del_age', '$del_school', '$del_grade', '$del_class', '$del_mob1', '$del_mob2', '$del_qq', '$del_wechat', '$del_email', '$del_time', '$del_resume', '$del_ever_attend', '$del_attend_name', '$del_choice', now()";
+    $val = "'$del_name', '$del_sex', '$del_age', '$del_school', '$del_grade', '$del_class', '$team_name', '$team_leader', '$team_su', '$team_su_mob', '$team_emg', '$team_emg_mob', '$del_mob1', '$del_mob2', '$del_qq', '$del_wechat', '$del_email', '$del_time', '$del_resume', '$del_ever_attend', '$del_attend_name', '$del_choice', now()";
 
     // Connect to database server
     if (!($link = connect_db())) {

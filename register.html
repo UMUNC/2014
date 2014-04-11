@@ -41,7 +41,7 @@
             <div class="form-group">
                 <label class="col-lg-2 control-label">姓名 Name</label>
                 <div class="col-lg-10">
-                    <input type='text' name='del_name' size='20' maxlength='40' required class="form-control" placeholder="Name">
+                    <input type='text' name='del_name' maxlength='40' required class="form-control" placeholder="Name">
                 </div>
             </div>
             <div class="form-group">
@@ -57,13 +57,13 @@
             <div class="form-group">
                 <label class="col-lg-2 control-label">年龄 Age</label>
                 <div class="col-lg-10">
-                    <input type='text' name='del_age' size='20' maxlength='3' required class="form-control" placeholder="Age">
+                    <input type='text' name='del_age' maxlength='3' required class="form-control" placeholder="Age">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label">在读学校 School</label>
                 <div class="col-lg-10">
-                    <input type='text' name='del_school' size='20' maxlength='150' required class="form-control" placeholder="School">
+                    <input type='text' name='del_school' maxlength='150' required class="form-control" placeholder="School">
                 </div>
             </div>
             <div class="form-group">
@@ -89,39 +89,80 @@
                     </select>
                 </div>
             </div>
-
+            <!-- For team -->
+            <div class="form-group" id="name_team">
+                <label class="col-lg-2 control-label">代表团名称 Name of Delegation</label>
+                <div class="col-lg-10">
+                    <input type="text" name="team_name" maxlength="150" class="form-control" placeholder="Name of Delegation">
+                </div>
+            </div>
+            <!-- End of For team -->
             <hr>
 
-            <p>联系方式 Contact Method</p>
+            <p>联系方式 Contact</p>
+            <!-- For team -->
+            <p id="team_label">团队联系方式 Contact for Team</p>
+            <div class="form-group" id="leader">
+                <label class="col-lg-2 control-label">领队(首席代表)姓名 Name of Leader</label>
+                <div class="col-lg-10">
+                    <input type="text" name="team_leader" maxlength="50" class="form-control" placeholder="Name of Leader">
+                </div>
+            </div>
+            <div class="form-group" id="sup">
+                <label class="col-lg-2 control-label">指导老师姓名 Name of Supervisor</label>
+                <div class="col-lg-10">
+                    <input type="text" name="team_su" maxlength="150" class="form-control" placeholder="Name of Supervisor(如果有多个请用逗号隔开)">
+                </div>
+            </div>
+            <div class="form-group" id="sup_mob">
+                <label class="col-lg-2 control-label">指导老师联系电话 Mobile of Supervisor</label>
+                <div class="col-lg-10">
+                    <input type="text" name="team_su_mob" maxlength="450" class="form-control" placeholder="Mobile of Supervisor(如果有多个请用逗号隔开, 和上一栏对应)">
+                </div>
+            </div>
+            <div class="form-group" id="emg_name">
+                <label class="col-lg-2 control-label">紧急联络人 Name of Emergency Contact</label>
+                <div class="col-lg-10">
+                    <input type="text" name="team_emg" maxlength="50" class="form-control" placeholder="Name of Emergency Contact">
+                </div>
+            </div>
+            <div class="form-group" id="emg_mob">
+                <label class="col-lg-2 control-label">紧急联络人电话 Mobile of Emergency Contact</label>
+                <div class="col-lg-10">
+                    <input type="text" name="team_emg_mob" maxlength="30" class="form-control" placeholder="Mobile of Emergency Contact">
+                </div>
+            </div>
+            <!-- End of For team -->
 
+            <p>个人联系方式 Contact for Self</p>
             <div class="form-group">
                 <label class="col-lg-2 control-label">手机 Mobile Phone</label>
                 <div class="col-lg-10">
-                    <input type='text' name='del_mob1' size='20' maxlength='20' required class="form-control" placeholder="Mobile Phone">
+                    <input type='text' name='del_mob1' maxlength='30' required class="form-control" placeholder="Mobile Phone">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label">备选手机 Alternative Mobile Phone</label>
                 <div class="col-lg-10">
-                    <input type='text' name='del_mob2' size='20' maxlength='20' class="form-control" placeholder="Alternative Mobile Phone">
+                    <input type='text' name='del_mob2' maxlength='30' class="form-control" placeholder="Alternative Mobile Phone">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label">QQ</label>
                 <div class="col-lg-10">
-                    <input type='text' name='del_qq' size='20' maxlength='20' required class="form-control" placeholder="QQ">
+                    <input type='text' name='del_qq' maxlength='20' required class="form-control" placeholder="QQ">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label">微信 WeChat</label>
                 <div class="col-lg-10">
-                    <input type='text' name='del_wechat' size='20' maxlength='20' class="form-control" placeholder="WeChat">
+                    <input type='text' name='del_wechat' maxlength='60' class="form-control" placeholder="WeChat">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label">邮箱 Email</label>
                 <div class="col-lg-10">
-                    <input type='email' name='del_email' size='20' maxlength='30' required class="form-control" placeholder="Email">
+                    <input type='email' name='del_email' maxlength='40' required class="form-control" placeholder="Email">
                 </div>
             </div>
 
@@ -132,7 +173,7 @@
             <div class="form-group">
                 <label class="col-lg-2 control-label">模联年龄 (接触模联的时间) Time in ModelUN</label>
                 <div class="col-lg-10">
-                    <input type='text' name='del_time' size='20' maxlength='20' required class="form-control" placeholder="Time in ModelUN">
+                    <input type='text' name='del_time' maxlength='30' required class="form-control" placeholder="Time in ModelUN">
                 </div>
             </div>
             <div class="form-group">
@@ -213,7 +254,7 @@
                         <option value='none'> &nbsp; &lt;请选择 Select One> &nbsp; </option>
                         <option value='cabinet_cab'>内阁联动体系 - 内阁</option>
                         <option value='cabinet_sc'>内阁联动体系 - 安全理事会</option>
-                        <option value='cabinet_mpc'>内阁联动体系 - 媒体</option>
+                        <option value='cabinet_mpc'>内阁联动体系 - 主媒体中心</option>
                         <option value='eu'>欧洲体系</option>
                         <option value='gaus'>"GAUS"体系 General Assembly United System</option>
                     </select>

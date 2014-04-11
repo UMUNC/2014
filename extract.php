@@ -34,7 +34,13 @@ $header = array(
     "在读学校",
     "在读年级",
     "代表类别",
-    "手机",
+    "代表团名称",
+    "领队姓名",
+    "指导老师姓名",
+    "指导老师联系电话",
+    "紧急联络人",
+    "紧急联络人电话",
+    "代表手机",
     "备选手机",
     "QQ",
     "微信",
@@ -67,8 +73,7 @@ mysql_query("SET character_set_connection=utf8");
 // Begin sql query
 $query = "select * from national_2014";
 if (!$result = mysql_query($query)) {
-    //print ("query failed " . mysql_error());
-    echo "query failed";
+    print ("query failed " . mysql_error());
     exit(1);
 }
 
@@ -84,6 +89,6 @@ while ($row = mysql_fetch_row($result)) {
 }
 
 fclose($out);
-echo "success";
+echo "Success. End of output.";
 exit(0);
 ?>
