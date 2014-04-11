@@ -25,8 +25,6 @@ $(document).ready(function(){
     $("#leader").hide();
     $("#sup").hide();
     $("#sup_mob").hide();
-    $("#emg_name").hide();
-    $("#emg_mob").hide();
 
     $("[name=del_class]").on('change', function(){
         if ($("[name=del_class] option:selected").val() == "group") {
@@ -35,8 +33,6 @@ $(document).ready(function(){
             $("#leader").fadeIn();
             $("#sup").fadeIn();
             $("#sup_mob").fadeIn();
-            $("#emg_name").fadeIn();
-            $("#emg_mob").fadeIn();
         }
         else {
             $("#name_team").hide();
@@ -44,8 +40,6 @@ $(document).ready(function(){
             $("#leader").hide();
             $("#sup").hide();
             $("#sup_mob").hide();
-            $("#emg_name").hide();
-            $("#emg_mob").hide();
         }
     });
 
@@ -140,15 +134,18 @@ function check() {
         if ($("[name=team_su_mob]").val() == "") {
             error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入指导老师联系电话</div>';
         }
-        if ($("[name=team_emg]").val() == "") {
-            error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入紧急联络人</div>';
-        }
-        if ($("[name=team_emg_mob]").val() == "") {
-            error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入紧急联络人电话</div>';
-        }
         if ($("[name=del_name]").val() == "") {
             error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入姓名</div>';
         }
+    }
+    if ($("[name=del_emg]").val() == "") {
+        error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入监护人</div>';
+    }
+    if ($("[name=del_emg_mob]").val() == "") {
+        error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入监护人手机</div>';
+    }
+    if (isNaN(parseFloat($("[name=del_emg_mob]").val()))) {
+        error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>监护人手机号不是数字</div>';
     }
     if (isNaN(parseFloat($("[name=del_mob1]").val()))) {
         error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>手机号不是数字</div>';
