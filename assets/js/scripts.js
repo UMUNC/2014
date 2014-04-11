@@ -110,6 +110,9 @@ function check() {
     if (isNaN(parseFloat($("[name=del_age]").val()))) {
         error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>年龄不是数字</div>';
     }
+    if ($("[name=del_id]").val() == "") {
+        error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入身份证号码</div>';
+    }
     if ($("[name=del_school]").val() == "") {
         error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入在读学校</div>';
     }

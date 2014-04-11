@@ -28,6 +28,7 @@ if ($_POST) {
     $del_name = $_POST['del_name'];
     $del_sex = $_POST['del_sex'];
     $del_age = $_POST['del_age'];
+    $del_id = $_POST['del_id'];
     $del_school = $_POST['del_school'];
     $del_grade = $_POST['del_grade'];
     $del_class = $_POST['del_class'];
@@ -59,7 +60,7 @@ if ($_POST) {
     $del_choice = $_POST['del_choice'];
 
     // sql string
-    $val = "'$del_name', '$del_sex', '$del_age', '$del_school', '$del_grade', '$del_emg', '$del_emg_mob', '$del_class', '$team_name', '$team_leader', '$team_su', '$team_su_mob', '$del_mob1', '$del_mob2', '$del_qq', '$del_wechat', '$del_email', '$del_time', '$del_resume', '$del_ever_attend', '$del_attend_name', '$del_choice', now()";
+    $val = "'$del_name', '$del_sex', '$del_age', '$del_id', '$del_school', '$del_grade', '$del_emg', '$del_emg_mob', '$del_class', '$team_name', '$team_leader', '$team_su', '$team_su_mob', '$del_mob1', '$del_mob2', '$del_qq', '$del_wechat', '$del_email', '$del_time', '$del_resume', '$del_ever_attend', '$del_attend_name', '$del_choice', now()";
 
     // Connect to database server
     if (!($link = connect_db())) {
