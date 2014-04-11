@@ -153,7 +153,7 @@ function check() {
     if (isNaN(parseFloat($("[name=del_qq]").val()))) {
         error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>QQ号不是数字</div>';
     }
-    if (!isEmail($("[name=del_email]"))) {
+    if (!(isEmail($("[name=del_email]").val()))) {
         error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>邮箱的格式不对</div>';
     }
     if ($("[name=del_time]").val() == "") {
