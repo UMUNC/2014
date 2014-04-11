@@ -47,7 +47,6 @@ $(document).ready(function(){
     // Hide Ajax elements
     $("#error_banner").hide();
     $("#success_message").hide();
-    $("#button_back").hide();
 
     $("#info").submit(function(ev){
 
@@ -78,7 +77,6 @@ $(document).ready(function(){
                     if (text == "success") {
                         $("#info").hide();
                         $("#success_message").fadeIn();
-                        $("#button_back").fadeIn();
                     }
                     else {
                         console.log(text);
