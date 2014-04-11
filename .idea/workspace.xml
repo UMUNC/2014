@@ -30,7 +30,7 @@
     <file path="/extract.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397054593538" ignored="false" />
     <file path="/extract.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397054655938" ignored="false" />
     <file path="/timeline.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397060267139" ignored="false" />
-    <file path="/2014_nat.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397219676593" ignored="false" />
+    <file path="/2014_nat.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397223310108" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_nat.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="2014_nat.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2014_nat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="387" column="119" selection-start="17910" selection-end="17910" vertical-scroll-proportion="-17.875">
+            <state line="319" column="104" selection-start="14296" selection-end="14296" vertical-scroll-proportion="0.50625">
               <folding />
             </state>
           </provider>
@@ -108,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extract.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="extract.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="12" selection-start="689" selection-end="689" vertical-scroll-proportion="0.47166923">
+            <state line="33" column="12" selection-start="689" selection-end="689" vertical-scroll-proportion="-14.708333">
               <folding />
             </state>
           </provider>
@@ -172,13 +172,13 @@
         <option value="$PROJECT_DIR$/page_coming_soon.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/tech.html" />
-        <option value="$PROJECT_DIR$/2014_nat.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/history.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/extract.php" />
+        <option value="$PROJECT_DIR$/2014_nat.html" />
       </list>
     </option>
   </component>
@@ -497,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2014_nat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="119" selection-start="17910" selection-end="17910" vertical-scroll-proportion="-17.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extract.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="53" selection-start="1797" selection-end="1797" vertical-scroll-proportion="-0.7595712">
@@ -568,7 +561,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="689" selection-end="689" vertical-scroll-proportion="0.47166923">
+        <state line="33" column="12" selection-start="689" selection-end="689" vertical-scroll-proportion="-14.708333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2014_nat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="319" column="104" selection-start="14296" selection-end="14296" vertical-scroll-proportion="0.50625">
           <folding />
         </state>
       </provider>
