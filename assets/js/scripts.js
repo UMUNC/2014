@@ -34,6 +34,13 @@ $(document).ready(function(){
             $("#sup").fadeIn();
             $("#sup_mob").fadeIn();
         }
+        else if ($("[name=del_class] option:selected").val() == "group_member") {
+            $("#name_team").fadeIn();
+            $("#team_label").hide();
+            $("#leader").hide();
+            $("#sup").hide();
+            $("#sup_mob").hide();
+        }
         else {
             $("#name_team").hide();
             $("#team_label").hide();
@@ -137,6 +144,11 @@ function check() {
         }
         if ($("[name=del_name]").val() == "") {
             error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入姓名</div>';
+        }
+    }
+    if ($("[name=del_class] option:selected").val() == "group_member") {
+        if ($("[name=team_name]").val() == "") {
+            error_message += '<div class="alert alert-danger fade in"><strong>Oh snap! </strong>你没有输入代表团名称</div>';
         }
     }
     if ($("[name=del_emg]").val() == "") {
