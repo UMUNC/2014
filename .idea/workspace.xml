@@ -16,12 +16,12 @@
     <file path="/index.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397219750031" ignored="false" />
     <file path="/commentedOut.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395537952193" ignored="false" />
     <file path="/subscribe.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1395655346688" ignored="false" />
-    <file path="/about.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397185055160" ignored="false" />
+    <file path="/about.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397283517731" ignored="false" />
     <file path="/history.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397218905178" ignored="false" />
     <file path="/register.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397281149402" ignored="false" />
     <file path="/style.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396620420444" ignored="false" />
     <file path="/bootstrap.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396693126295" ignored="false" />
-    <file path="/tech.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397071889002" ignored="false" />
+    <file path="/tech.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397283691008" ignored="false" />
     <file path="/scripts.js" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397281350857" ignored="false" />
     <file path="/app.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1396930658297" ignored="false" />
     <file path="/history-v2.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397007991461" ignored="false" />
@@ -59,19 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tech.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tech.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="119" selection-start="9954" selection-end="9954" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="51" selection-start="4643" selection-end="4655" vertical-scroll-proportion="0.0">
+            <state line="93" column="51" selection-start="4643" selection-end="4655" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -86,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="60" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.31019202">
+            <state line="131" column="60" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,8 +89,23 @@
       <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="515" column="119" selection-start="25515" selection-end="25515" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="140" column="98" selection-start="5974" selection-end="5974" vertical-scroll-proportion="-7.9166665">
+              <folding>
+                <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#3;n#div#9;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tech.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tech.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="129" column="75" selection-start="5082" selection-end="5082" vertical-scroll-proportion="0.47166923">
+              <folding>
+                <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +131,7 @@
       <file leaf-file-name="history.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="489" column="119" selection-start="25500" selection-end="25500" vertical-scroll-proportion="0.0">
+            <state line="489" column="119" selection-start="25500" selection-end="25500" vertical-scroll-proportion="-11.041667">
               <folding>
                 <marker date="1397219810000" expanded="false" signature="2647:2663" placeholder="..." />
                 <marker date="1397219810000" expanded="false" signature="3031:3047" placeholder="..." />
@@ -167,14 +173,14 @@
         <option value="$PROJECT_DIR$/assets/css/timeline.css" />
         <option value="$PROJECT_DIR$/page_coming_soon.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/tech.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/history.html" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/extract.php" />
         <option value="$PROJECT_DIR$/2014_nat.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/tech.html" />
       </list>
     </option>
   </component>
@@ -348,7 +354,11 @@
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="22" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#3;n#div#9;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -410,48 +420,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tech.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="119" selection-start="9954" selection-end="9954" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extract.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="53" selection-start="1797" selection-end="1797" vertical-scroll-proportion="-0.7595712" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="515" column="119" selection-start="25515" selection-end="25515" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="489" column="119" selection-start="25500" selection-end="25500" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1397219810000" expanded="false" signature="2647:2663" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="3031:3047" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="5790:5806" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="6977:6993" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="7340:7356" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="8720:8736" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="9956:9972" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="11242:11258" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="12575:12591" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="13125:13141" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="14928:14944" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="15351:15367" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="16625:16641" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="17529:17545" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="18157:18173" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="18506:18522" placeholder="..." />
-            <marker date="1397219810000" expanded="false" signature="18611:18642" placeholder="..." />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
@@ -475,17 +446,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="51" selection-start="4643" selection-end="4655" vertical-scroll-proportion="0.0">
+        <state line="131" column="60" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="60" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.31019202">
+        <state line="93" column="51" selection-start="4643" selection-end="4655" vertical-scroll-proportion="-1.25">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="98" selection-start="5974" selection-end="5974" vertical-scroll-proportion="-7.9166665">
+          <folding>
+            <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#a#0;n#h3#0;n#div#0;n#div#3;n#div#9;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="489" column="119" selection-start="25500" selection-end="25500" vertical-scroll-proportion="-11.041667">
+          <folding>
+            <marker date="1397219810000" expanded="false" signature="2647:2663" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="3031:3047" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="5790:5806" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="6977:6993" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="7340:7356" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="8720:8736" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="9956:9972" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="11242:11258" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="12575:12591" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="13125:13141" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="14928:14944" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="15351:15367" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="16625:16641" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="17529:17545" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="18157:18173" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="18506:18522" placeholder="..." />
+            <marker date="1397219810000" expanded="false" signature="18611:18642" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tech.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="75" selection-start="5082" selection-end="5082" vertical-scroll-proportion="0.47166923">
+          <folding>
+            <element signature="n#style#0;n#small#0;n#h3#0;n#div#0;n#div#1;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
