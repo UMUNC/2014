@@ -78,21 +78,24 @@ if (!$result = mysql_query($query)) {
     exit(1);
 }
 
-// Define output stream
-$out = fopen("php://output", 'w');
-
-// iconv translation
-$header = iconv("UTF-8", "GB2312", $header);
-
+// Define CSV output string
 // Write header row to CSV
-fputcsv($out, $header);
+$csv = "";
+fputcsv($csv, $header);
 
 // write data line by line
 while ($row = mysql_fetch_row($result)) {
-    // iconv translation
-    $row = iconv("UTF-8", "GB2312", $row);
-    fputcsv($out, $row);
+    fputcsv($csv, $row);
 }
+
+// encoding translation
+$csv = iconv('UTF-8', 'GB2312', $csv);
+
+// Define output stream
+$out = fopen("php://output", 'w');
+
+// Output
+echo $csv;
 
 fclose($out);
 echo "Success. End of output.";
