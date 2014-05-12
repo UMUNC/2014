@@ -90,7 +90,7 @@ while ($row = mysql_fetch_row($result)) {
 
 // encoding translation
 $csv = iconv('UTF-8', 'GB2312', $csv);
-
+echo "CSV:\n" . $csv;
 // Define output stream
 $out = fopen("php://output", 'w');
 
