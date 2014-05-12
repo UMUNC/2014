@@ -55,7 +55,7 @@ $header = array(
 
 // Define HTTP header
 header("Content-Disposition: attachment; filename=\"$filename\"");
-header("Content-Type: text/csv; charset=UTF-8");
+header("Content-Type: text/csv; charset=GB2312");
 
 // Begin output process
 // Connect to database server
@@ -82,11 +82,11 @@ if (!$result = mysql_query($query)) {
 $out = fopen("php://output", 'w');
 
 // Write header row to CSV
-fputcsv($out, $header);
+fputcsv($out, iconv("UTF-8", "GB2312", $header));
 
 // write data line by line
 while ($row = mysql_fetch_row($result)) {
-    fputcsv($out, $row);
+    fputcsv($out, iconv("UTF-8", "GB2312", $row));
 }
 
 fclose($out);
