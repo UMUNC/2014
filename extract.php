@@ -88,9 +88,9 @@ fputcsv($out, $header);
 
 // write data line by line
 while ($row = mysql_fetch_row($result)) {
-    foreach ($row as $column) {
-        if(is_numeric($column)) {
-            $column = '"' . $column . '"';
+    foreach ($row as $index => $content) {
+        if(is_numeric($row[$index])) {
+            $row[$index] = '="' . $content . '"';
         }
     }
     fputcsv($out, $row);
