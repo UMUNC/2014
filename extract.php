@@ -89,16 +89,16 @@ $csv = iconv('UTF-8', 'GB2312', $csv);
 echo "CSV:\n" . $csv;
 
 // Define HTTP header
-header("Content-Disposition: attachment; filename=\"$filename\"");
-header("Content-Type: text/csv; charset=GB2312");
+//header("Content-Disposition: attachment; filename=\"$filename\"");
+//header("Content-Type: text/csv; charset=GB2312");
 
 // Define output stream
-$out = fopen("php://output", 'w');
+//$out = fopen("php://output", 'w');
 
 // Output
 echo $csv;
 
-fclose($out);
+//fclose($out);
 echo "Success. End of output.";
 exit(0);
 ?>
