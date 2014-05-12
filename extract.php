@@ -54,8 +54,10 @@ $header = array(
     "注册时间");
 
 // Define HTTP header
+header("Content_Encoding: UTF-8");
 header("Content-Disposition: attachment; filename=\"$filename\"");
-header("Content-Type: text/csv; charset=UTF-16LE");
+header("Content-Type: text/csv; charset=UTF-8");
+echo "\xEF\xBB\xBF";
 
 // Begin output process
 // Connect to database server
@@ -66,6 +68,9 @@ if (!($link = connect_db())) {
 
 // Select database
 mysql_select_db("umunc_v2");
+mysql_query("SET CHARACTER SET utf8");
+mysql_query("SET NAMES utf8");
+mysql_query("SET character_set_client=utf8");
 mysql_query("SET character_set_connection=utf8");
 
 // Begin sql query
@@ -79,11 +84,11 @@ if (!$result = mysql_query($query)) {
 $out = fopen("php://output", 'w');
 
 // Write header row to CSV
-fputcsv($out, mb_convert_encoding($header ,"UTF-16LE", "UTF-8"));
+fputcsv($out, $header);
 
 // write data line by line
 while ($row = mysql_fetch_row($result)) {
-    fputcsv($out, mb_convert_encoding($row, "UTF-16LE", "UTF-8"));
+    fputcsv($out, $row);
 }
 
 fclose($out);
