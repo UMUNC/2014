@@ -81,11 +81,16 @@ if (!$result = mysql_query($query)) {
 // Define output stream
 $out = fopen("php://output", 'w');
 
+// iconv translation
+$header = iconv("UTF-8", "Windows-1252", $header);
+
 // Write header row to CSV
 fputcsv($out, $header);
 
 // write data line by line
 while ($row = mysql_fetch_row($result)) {
+    // iconv translation
+    $row = iconv("UTF-8", "Windows-1252", $row);
     fputcsv($out, $row);
 }
 
