@@ -82,11 +82,11 @@ if (!$result = mysql_query($query)) {
 $out = fopen("php://output", 'w');
 
 // Write header row to CSV
-fputcsv($out, iconv("UTF-8", "GB2312", $header));
+fputcsv($out, mb_convert_encoding("GB2312", "UTF-8", $header));
 
 // write data line by line
 while ($row = mysql_fetch_row($result)) {
-    fputcsv($out, iconv("UTF-8", "GB2312", $row));
+    fputcsv($out, mb_convert_encoding("GB2312", "UTF-8", $row));
 }
 
 fclose($out);
