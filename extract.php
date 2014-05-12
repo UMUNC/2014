@@ -53,6 +53,10 @@ $header = array(
     "委员会志愿",
     "注册时间");
 
+// Define HTTP header
+header("Content-Disposition: attachment; filename=\"$filename\"");
+header("Content-Type: text/csv; charset=UTF-8");
+
 // Begin output process
 // Connect to database server
 if (!($link = connect_db())) {
@@ -74,31 +78,18 @@ if (!$result = mysql_query($query)) {
     exit(1);
 }
 
-// Define CSV output string
+// Define output stream
+$out = fopen("php://output", 'w');
+
 // Write header row to CSV
-$csv = "";
-fputcsv($csv, $header);
+fputcsv($out, $header);
 
 // write data line by line
 while ($row = mysql_fetch_row($result)) {
-    fputcsv($csv, $row);
+    fputcsv($out, $row);
 }
 
-// encoding translation
-$csv = iconv('UTF-8', 'GB2312', $csv);
-echo "CSV:\n" . $csv;
-
-// Define HTTP header
-//header("Content-Disposition: attachment; filename=\"$filename\"");
-//header("Content-Type: text/csv; charset=GB2312");
-
-// Define output stream
-//$out = fopen("php://output", 'w');
-
-// Output
-echo $csv;
-
-//fclose($out);
+fclose($out);
 echo "Success. End of output.";
 exit(0);
 ?>
