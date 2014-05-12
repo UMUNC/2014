@@ -54,7 +54,7 @@ $header = array(
     "注册时间");
 
 // Define HTTP header
-header("Content_Encoding: UTF-8");
+header("Content-Encoding: UTF-8");
 header("Content-Disposition: attachment; filename=\"$filename\"");
 header("Content-Type: text/csv; charset=UTF-8");
 echo "\xEF\xBB\xBF";
