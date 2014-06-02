@@ -109,7 +109,7 @@
 <div class="container content blog-page blog-item">
     <!--Blog Post-->
     <div class="blog margin-bottom-40">
-        <h2 style="font-size: 30px;"><a href="invitation.php">UMUNC 2014 年度总会 会议基本信息</a></h2>
+        <h2 style="font-size: 30px;"><a href="info_conf.php">UMUNC 2014 年度总会 会议基本信息</a></h2>
         <div class="blog-post-tags">
             <ul class="list-unstyled list-inline blog-info">
                 <li><i class="fa fa-calendar"></i> May 04, 2014</li>

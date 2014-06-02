@@ -65,6 +65,11 @@
                         </a>
                     </li>
                     <li>
+                        <a href="blogs/index.php">
+                            Blogs
+                        </a>
+                    </li>
+                    <li>
                         <a href="about.php">
                             About Us
                         </a>

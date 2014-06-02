@@ -64,6 +64,11 @@
                             Home
                         </a>
                     </li>
+                    <li>
+                        <a href="blogs/index.php">
+                            Blogs
+                        </a>
+                    </li>
                     <li class="active">
                         <a href="about.php">
                             About Us
