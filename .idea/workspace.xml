@@ -38,7 +38,7 @@
     <file path="/invitation.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401721664403" ignored="false" />
     <file path="/recruit.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401722681035" ignored="false" />
     <file path="/info_conf.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401725111198" ignored="false" />
-    <file path="/staff.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401726086174" ignored="false" />
+    <file path="/staff.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401727421324" ignored="false" />
     <file path="/2014_nat.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401725175900" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,10 +92,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogs/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="31" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.890625">
+            <state line="38" column="31" selection-start="2230" selection-end="2230" vertical-scroll-proportion="-23.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="staff.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blogs/staff.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="85" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.41347626">
               <folding />
             </state>
           </provider>
@@ -124,9 +133,9 @@
         <option value="$PROJECT_DIR$/history.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/tech.php" />
-        <option value="$PROJECT_DIR$/blogs/staff.php" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/blogs/footer.html" />
+        <option value="$PROJECT_DIR$/blogs/staff.php" />
       </list>
     </option>
   </component>
@@ -369,13 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/info_conf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="59" selection-start="4200" selection-end="4200" vertical-scroll-proportion="0.253125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2014_nat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="20" selection-start="2946" selection-end="3090" vertical-scroll-proportion="0.4609375">
@@ -439,35 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="12" selection-start="7437" selection-end="7437" vertical-scroll-proportion="-0.010719755">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#7;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#8;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#9;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#10;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#11;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#13;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#14;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#15;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#16;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#17;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="84" selection-start="1935" selection-end="1935" vertical-scroll-proportion="-30.625">
@@ -499,7 +472,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogs/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="31" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.890625">
+        <state line="38" column="31" selection-start="2230" selection-end="2230" vertical-scroll-proportion="-23.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/info_conf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="59" selection-start="4200" selection-end="4200" vertical-scroll-proportion="0.28125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="85" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.41347626">
           <folding />
         </state>
       </provider>

@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Blogs | Invitation</title>
+    <title>Blogs | Staff</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -109,10 +109,10 @@
 <div class="container content blog-page blog-item">
     <!--Blog Post-->
     <div class="blog margin-bottom-40">
-        <h2 style="font-size: 30px;"><a href="staff.php">UMUNC 2014年度会议 邀请函</a></h2>
+        <h2 style="font-size: 30px;"><a href="staff.php">UMUNC 2014 年度总会 委员会设置及学术团队名单</a></h2>
         <div class="blog-post-tags">
             <ul class="list-unstyled list-inline blog-info">
-                <li><i class="fa fa-calendar"></i> March 10, 2014</li>
+                <li><i class="fa fa-calendar"></i> May 11, 2014</li>
                 <li><i class="fa fa-pencil"></i> UMUNC</li>
             </ul>
         </div>
