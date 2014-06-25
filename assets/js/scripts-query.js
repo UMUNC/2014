@@ -16,7 +16,7 @@ $(document).ready(function(){
     $("#start_message").hide();
     $("#cc").hide();
     $("#gcsc").hide();
-    $("mpc").hide();
+    $("#mpc").hide();
     $("#gaus").hide();
     $("#eu").hide();
     $("#end_message").hide();

@@ -40,7 +40,7 @@
     <file path="/info_conf.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401725111198" ignored="false" />
     <file path="/staff.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401727421324" ignored="false" />
     <file path="/2014_nat.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401725175900" ignored="false" />
-    <file path="/query.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1403679587353" ignored="false" />
+    <file path="/query.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1403682305168" ignored="false" />
     <file path="/scripts-query.js" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1403682100723" ignored="false" />
     <file path="/query.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1403681674410" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,19 +62,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scripts-query.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scripts-query.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/scripts-query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="23" selection-start="536" selection-end="536" vertical-scroll-proportion="0.15418503">
+            <state line="45" column="40" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="query.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/query.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="66" selection-start="3021" selection-end="3021" vertical-scroll-proportion="20.0">
+            <state line="63" column="100" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.6862442">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -96,7 +96,25 @@
       <file leaf-file-name="query.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="21" selection-start="1732" selection-end="1732" vertical-scroll-proportion="-23.428572">
+            <state line="27" column="31" selection-start="522" selection-end="522" vertical-scroll-proportion="-3.4285715">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extract.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="39" selection-start="1513" selection-end="1552" vertical-scroll-proportion="-43.42857">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extract.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extract.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -125,9 +143,9 @@
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/blogs/footer.html" />
         <option value="$PROJECT_DIR$/blogs/staff.php" />
-        <option value="$PROJECT_DIR$/query.html" />
-        <option value="$PROJECT_DIR$/query.php" />
         <option value="$PROJECT_DIR$/assets/js/scripts-query.js" />
+        <option value="$PROJECT_DIR$/query.php" />
+        <option value="$PROJECT_DIR$/query.html" />
       </list>
     </option>
   </component>
@@ -389,11 +407,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="1385" selection-end="2528" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/info_conf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="111" column="59" selection-start="4200" selection-end="4200" vertical-scroll-proportion="0.28125" />
@@ -448,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="39" selection-start="1513" selection-end="1552" vertical-scroll-proportion="0.45454547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="52" selection-start="3392" selection-end="3436" vertical-scroll-proportion="0.0">
@@ -462,16 +468,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts-query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="40" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="39" selection-start="1513" selection-end="1552" vertical-scroll-proportion="-43.42857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/query.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="1732" selection-end="1732" vertical-scroll-proportion="-23.428572">
+        <state line="27" column="31" selection-start="522" selection-end="522" vertical-scroll-proportion="-3.4285715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/query.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="66" selection-start="3021" selection-end="3021" vertical-scroll-proportion="20.0">
+        <state line="63" column="100" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.6862442">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -486,13 +513,6 @@
             <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scripts-query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="536" selection-end="536" vertical-scroll-proportion="0.15418503">
-          <folding />
         </state>
       </provider>
     </entry>
