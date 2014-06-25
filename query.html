@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>UMUNC | Allocation Query Tool</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS Global Compulsory-->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/headers/header1.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- CSS Page Style -->
+    <link rel="stylesheet" href="assets/css/pages/page_log_reg_v2.css">
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="assets/css/themes/blue.css" id="style_color">
+    <link rel="stylesheet" href="assets/css/themes/headers/header1-blue.css" id="style_color-header-1">
+    <style>
+        .container {
+            max-width: 90%;
+        }
+        .reg-block-header {
+            padding-bottom: 5px;
+            margin-bottom: 30px;
+            border-bottom: none;
+        }
+        .reg-block {
+            width: 90%;
+            padding: 20px;
+            margin: 60px auto;
+            background: #fff;
+            border-top: none;
+        }
+        .reg-block p
+        {
+            font-size: 17px;
+            color: #000;
+        }
+        .reg-block h2
+        {
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+<!--=== Content Part ===-->
+<div class="container">
+    <!--Reg Block-->
+    <div class="reg-block" style="background-color: transparent;">
+        <div class="reg-block-header">
+            <h2>UMUNC<br>Allocation Query Tool</h2>
+        </div>
+        <div class="col-md-12" id="error_banner"></div>
+        <form name="id_num_form" class="form-horizontal" role="form" method="post" action="" accept-charset="utf-8" id="id_num">
+            <div class="input-group" style="margin: auto; margin-bottom: 20px;">
+                <p style="text-align: center;">Please input your 18 Digits ID Number to query your allocation.</p>
+                <p style="text-align: center;">请输入你的18位身份证号码来查询席位分配</p>
+                <input name="id_number" type="text" class="form-control" placeholder="18 Digits ID Number" id="id_num_field" maxlength="18">
+            </div>
+            <div class="row" style="margin: auto; margin-bottom: 20px;">
+                <div class="col-md-4 col-md-offset-4">
+                    <button type="submit" class="btn-u btn-block">Confirm</button>
+                </div>
+            </div>
+        </form>
+        <div class="row" id="alloc">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-50">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>席位分配</th>
+                            <th>原文职位</th>
+                            <th>中文职位</th>
+                            <th>原文名称</th>
+                            <th>中文名称</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="table_content"></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row" id="start_message">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-30" style="text-align: left;">
+                <p>尊敬的各位代表：</p>
+                <p>以下是你所在的委员会对于代表所需要提交文件的要求，请仔细阅读，并按照不同委员会给出的提交时间和地址，按时提交文件。如有疑问，可与各委员会的学术监督直接取得联系。
+                    所有文档请统一命名为“姓名 – 席位名”，我们接受*.doc/*.docx/*.pdf三种文件格式， *.pages/*.wps等非通用格式恕不接受。中文文档字体统一为宋体/小四，英文文档字体统一为Times New Roman/12pt。
+                </p>
+            </div>
+        </div>
+        <div class="row" id="cc">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-20" style="text-align: left;">
+                <h2>国家内阁</h2>
+                <p>内容说明：收集资料，本国与其他四国的传统外交关系与利益往来。近期热点事件上各国采取的态度及其原因，不少于400字。</p>
+                <p>特别要求：听一遍本国国歌\(//∇//)\</p>
+                <p>提交日期：7月18日之前</p>
+                <p>提交地址：wangxiaohan@umunc.net</p>
+            </div>
+        </div>
+        <div class="row" id="gcsc">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-20" style="text-align: left;">
+                <h2>联合国安全理事会</h2>
+                <p>
+                    文件说明：作为安理会的理事国成员，贵国在乌克兰问题的态度及立场对安理会解决乌克兰问题起着重要作用。
+                </p>
+                <ol style="font-size: 17px;">
+                    <li>请问大使女士\先生，贵国认为在解决乌克兰问题上的核心是什么？</li>
+                    <li>贵国认为在解决乌克兰问题上外部阻力(国际环境因素)有哪些？</li>
+                    <li>贵国在乌克兰问题上所持的态度是什么？并希望乌克兰局势如何发展？</li>
+                </ol>
+                <p>题目要求：</p>
+                <ol style="font-size: 17px;">
+                    <li>每位代表都需作答以上问题；</li>
+                    <li>请各位大使本着客观，合理，符合本国利益及国际形势的角度作答并加以分析；</li>
+                    <li>作答过程中可以与搭档，他国大使及主席进行讨论。</li>
+                    <li>每题不得少于100字；</li>
+                </ol>
+                <p>截止日期：2014年7月15日  22：30</p>
+                <p>提交地址：niubin@umunc.net / jinjie@umunc.net</p>
+            </div>
+        </div>
+        <div class="row" id="mpc">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-20" style="text-align: left;">
+                <h2>主新闻中心</h2>
+                <p>
+                    暂无作业要求，请等待后续通知
+                </p>
+            </div>
+        </div>
+        <div class="row" id="gaus">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-30" style="text-align: left;">
+                <h2>General Assembly United System</h2>
+                <p>Your position paper should be one (or two) page(s), single-spaced, twelve-point Times New Roman font (approximately 500 words). Your name, country name, school, committee and topic should be in the upper left hand corner; every single delegate in GAU System should hand in his/her position paper. The paper should be outlined in three paragraphs. The first two paragraphs should make up about half of the paper; the third and final paragraph should make up the remainder, and bulk, of your paper. These paragraphs are in a logical procession, and each paragraph should build analytically on the last. </p>
+                <p>The first paragraph should consist of your country’s experience or particular connection to the topic. For instance, how have your country reacted when facing similar questions?</p>
+                <p>The second paragraph should discuss your nation’s policy on the issues, as supported by relevant national documents. This differs from the first paragraph because it should also include a short description of agreements, statements, and lessons learned from your history and choices in the past. You should also discuss your current diplomatic arrangements with relevant nations in this paragraph. Research for this paragraph could include speeches given by heads of state or ambassadors, or national studies and policy statements.</p>
+                <p>The third, final, and most important paragraph is your country’s plan going forward. Given your history and your policy going forward, what does your country believe is the best course of action to pursue? This should be a unique mixture of international work and your country’s personal past and experiences.</p>
+                <p>These length guidelines are meant to focus your research in the places that will be most productive for committee debate. Understanding your country, however, is important for creating a plan to undertake on an international level, and I highly encourage you to conduct your investigations and learning with vigor and curiosity. Please cite all your sources with endnotes. The deadline would be July 20th. And of course, absolutely do not hesitate to contact me with questions.</p>
+                <p>*Submit your position paper to liukang@umunc.net</p>
+            </div>
+        </div>
+        <div class="row" id="eu">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-30" style="text-align: left;">
+                <h2>欧洲体系</h2>
+                <p>暂无作业要求，请等待后续通知</p>
+            </div>
+        </div>
+        <div class="row" id="end_message">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-30" style="text-align: left;">
+                <h2>各会场交流群</h2>
+                <p>我们推荐所有人加入各委员会群。但请注意，所有委员会的群只接受该委员会代表的加入申请。加群时请注明姓名和席位。</p>
+                <p>国家内阁：348712727</p>
+                <p>联合国安理会：317734834</p>
+                <p>媒体中心：319413601</p>
+                <p>GAUS-SC: 325475921</p>
+                <p>GAUS-DISEC: 342403049</p>
+                <p>欧洲体系总群：347715107</p>
+            </div>
+        </div>
+    </div>
+    <!--End Reg Block-->
+</div><!--/container-->
+<!--=== End Content Part ===-->
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/plugins/hover-dropdown.min.js"></script>
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/countdown/jquery.countdown.js"></script>
+<script type="text/javascript" src="assets/plugins/backstretch/jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+    $.backstretch([
+        "assets/img/bg/v2-1.jpg"
+    ], {
+        fade: 1000,
+        duration: 7000
+    });
+</script>
+<!-- JS Page Level -->
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+    });
+</script>
+<!-- Custom Javascript -->
+<script type="text/javascript" src="assets/js/scripts-query.js"></script>
+<!--[if lt IE 9]>
+<script src="assets/plugins/respond.js"></script>
+<![endif]-->
+
+</body>
+</html> 
