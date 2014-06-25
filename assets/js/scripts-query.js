@@ -45,13 +45,27 @@ $(document).ready(function(){
                 type:       'POST',
                 url:        'query.php',
                 data:       post_data,
-                dataType:   'text',
+                dataType:   'json',
                 success:    function(json) {
+                    $("#confirm_button").hide();
                     console.log(json);
                     // Insert alloc
-                    $("#table_content").html(
+                    var return_val = json.alloc;
+                    var content = "";
+                    for (var i = 0; i < 5; i++) {
+                        if (return_val[i] != null) {
+                            content += ("<tr>" + return_val[i] + "</tr>");
+                        }
+                        else {
+                            content += "<tr></tr>";
+                        }
+                    }
 
-                    )
+                    console.log(content);
+
+                    $("#alloc_table > tbody").append(content);
+                    // Display alloc
+                    $("#alloc").fadeIn();
                     // Display message
                     $("#start_message").fadeIn();
                     if (json.system == "cc") {
@@ -73,6 +87,7 @@ $(document).ready(function(){
                     {
                         $("#gaus").fadeIn();
                     }
+                    $("#end_message").fadeIn();
                 },
                 error:      function(json) {
                     console.log("Ajax error:");

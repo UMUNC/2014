@@ -11,7 +11,7 @@
 function connect_db () {
     $db = "localhost";
     $username = "root";
-    $password = "BabyBibo1117";
+    $password = "";
     if (!($link = mysql_connect($db, $username, $password))) {
         return ("");
     }
@@ -22,11 +22,10 @@ function connect_db () {
 
 // Begin process
 
-//if ($_POST) {
+if ($_POST) {
 
     // Retrieve HTTP variables
-    //$id_num = $_POST['id_number'];
-    $id_num = "14230119950419001x";
+    $id_num = $_POST['id_number'];
 
     // Connect to database server
     if (!($link = connect_db())) {
@@ -37,8 +36,11 @@ function connect_db () {
     // Begin querying
     // Select database
     mysql_select_db("umunc_v2");
+    mysql_query("SET CHARACTER SET utf8");
+    mysql_query("SET NAMES utf8");
     mysql_query("SET character_set_client=utf8");
     mysql_query("SET character_set_connection=utf8");
+
 
     // Get delegate's name from database
     $query = "select del_name from delegate_all where id_num = '$id_num'";
@@ -48,20 +50,22 @@ function connect_db () {
         exit(1);
     }
     $del_name = mysql_fetch_row($result);
-    echo "name is: ";
-    echo $del_name;
+    //echo "name is: " . $del_name[0];
+
+
     // Get delegate's system using the name
-    $query = "select system from delegate_alloc where del_name = '$del_name'";
+    $query = "select system from delegate_alloc where del_name = '$del_name[0]'";
     if (!($result = mysql_query($query))) {
         //print ("query failed " . mysql_error());
         echo "query failed";
         exit(1);
     }
-    $sys = mysql_fetch_row($result);
-    echo "system is: ";
-    echo $sys;
+    $system = mysql_fetch_row($result);
+    $sys = $system[0];
+    //echo "system is: " . $sys;
+
     // Get delegate's allocation using the name
-    $query = "select representation, pos_original, pos_chn, name_original, name_chn from delegate_alloc where del_name = '$del_name'";
+    $query = "select representation, pos_original, pos_chn, name_original, name_chn from delegate_alloc where del_name = '$del_name[0]'";
     if (!($result = mysql_query($query)))
     {
         // print ("query failed " . mysql_error());
@@ -69,13 +73,11 @@ function connect_db () {
         exit(1);
     }
     $alloc = mysql_fetch_row($result);
-    echo "alloc is: ";
-    echo $alloc;
-    exit(1);
+
 
     // Return the allocation if success
     echo json_encode(array("system" => $sys, "alloc" => $alloc));
-//}
+}
 else {
     // Return error
     echo "no http post";
