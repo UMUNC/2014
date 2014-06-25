@@ -11,7 +11,7 @@
 function connect_db () {
     $db = "localhost";
     $username = "root";
-    $password = "Babybibo1117";
+    $password = "BabyBibo1117";
     if (!($link = mysql_connect($db, $username, $password))) {
         return ("");
     }
