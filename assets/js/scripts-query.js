@@ -44,6 +44,7 @@ $(document).ready(function(){
             $.ajax({
                 type:       'POST',
                 url:        'query.php',
+                data:       post_data,
                 dataType:   'text',
                 success:    function(json) {
                     console.log(json);
