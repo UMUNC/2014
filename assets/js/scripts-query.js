@@ -34,7 +34,6 @@ $(document).ready(function(){
             var error_banner = $("#error_banner");
 
             error_banner.hide();
-            $("#sorry").hide();
             error_banner.html(error);
             error_banner.fadeIn();
         }
@@ -91,6 +90,7 @@ $(document).ready(function(){
                             $("#gaus").fadeIn();
                         }
                         $("#end_message").fadeIn();
+                        $("#sorry").hide();
                     }
                     else {
                         $("#start_message").hide();
