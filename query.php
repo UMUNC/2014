@@ -26,7 +26,7 @@ function connect_db () {
 
     // Retrieve HTTP variables
     //$id_num = $_POST['id_number'];
-    $id_num = 14230119950419001x;
+    $id_num = "14230119950419001x";
 
     // Connect to database server
     if (!($link = connect_db())) {
