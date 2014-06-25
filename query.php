@@ -41,30 +41,33 @@ if ($_POST) {
 
     // Get delegate's name from database
     $query = "select del_name from delegate_all where id_num = '$id_num'";
-    if (!($del_name = mysql_query($query))) {
+    if (!($result = mysql_query($query))) {
         //print ("query failed " . mysql_error());
         echo "query failed";
         exit(1);
     }
+    $del_name = mysql_fetch_row($result);
     echo "name is: ";
     echo $del_name;
     // Get delegate's system using the name
     $query = "select system from delegate_alloc where del_name = '$del_name'";
-    if (!($sys = mysql_query($query))) {
+    if (!($result = mysql_query($query))) {
         //print ("query failed " . mysql_error());
         echo "query failed";
         exit(1);
     }
+    $sys = mysql_fetch_row($result);
     echo "system is: ";
     echo $sys;
     // Get delegate's allocation using the name
     $query = "select representation, pos_original, pos_chn, name_original, name_chn from delegate_alloc where del_name = '$del_name'";
-    if (!($alloc = mysql_query($query)))
+    if (!($result = mysql_query($query)))
     {
         // print ("query failed " . mysql_error());
         echo "query failed";
         exit(1);
     }
+    $alloc = mysql_fetch_row($result);
     echo "alloc is: ";
     echo $alloc;
     exit(1);
