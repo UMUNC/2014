@@ -65,7 +65,7 @@ if ($_POST) {
     //echo "system is: " . $sys;
 
     // Get delegate's allocation using the name
-    $query = "select representation, pos_original, pos_chn, name_original, name_chn from delegate_alloc where del_name = '$del_name[0]'";
+    $query = "select representation, pos_original, pos_chn, name_original, name_chn, del_name from delegate_alloc where del_name = '$del_name[0]'";
     if (!($result = mysql_query($query)))
     {
         // print ("query failed " . mysql_error());

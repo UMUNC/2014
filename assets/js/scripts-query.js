@@ -21,6 +21,7 @@ $(document).ready(function(){
     $("#eu").hide();
     $("#end_message").hide();
     $("#alloc").hide();
+    $("#sorry").hide();
 
     $("#id_num").submit(function(ev){
 
@@ -47,47 +48,56 @@ $(document).ready(function(){
                 data:       post_data,
                 dataType:   'json',
                 success:    function(json) {
-                    $("#confirm_button").hide();
-                    console.log(json);
-                    // Insert alloc
-                    var return_val = json.alloc;
-                    var content = "";
-                    for (var i = 0; i < 5; i++) {
-                        if (return_val[i] != null) {
-                            content += ("<tr>" + return_val[i] + "</tr>");
+                    if (json.alloc != false) {
+                        console.log(json);
+                        // Insert alloc
+                        var return_val = json.alloc;
+                        var content = "";
+                        content += ("<td>" + return_val[5] + "</td>");
+                        for (var i = 0; i < 5; i++) {
+                            if (return_val[i] != null) {
+                                content += ("<td>" + return_val[i] + "</td>");
+                            }
+                            else {
+                                content += "<td></td>";
+                            }
                         }
-                        else {
-                            content += "<tr></tr>";
+
+                        console.log(content);
+
+                        $("#table_content").html(content);
+                        // Display alloc
+                        $("#alloc").fadeIn();
+                        // Display message
+                        $("#start_message").fadeIn();
+                        if (json.system == "cc") {
+                            $("#cc").fadeIn();
                         }
+                        else if (json.system == "gcsc")
+                        {
+                            $("#gcsc").fadeIn();
+                        }
+                        else if (json.system == "mpc")
+                        {
+                            $("#mpc").fadeIn();
+                        }
+                        else if (json.system == "eu")
+                        {
+                            $("#eu").fadeIn();
+                        }
+                        else if (json.system == "gaus")
+                        {
+                            $("#gaus").fadeIn();
+                        }
+                        $("#end_message").fadeIn();
                     }
-
-                    console.log(content);
-
-                    $("#alloc_table > tbody").append(content);
-                    // Display alloc
-                    $("#alloc").fadeIn();
-                    // Display message
-                    $("#start_message").fadeIn();
-                    if (json.system == "cc") {
-                        $("#cc").fadeIn();
+                    else {
+                        error_banner = $("#error_banner");
+                        error_banner.hide();
+                        error_banner.html('<div class="alert alert-danger fade in"><strong>输入错误或记录不存在</strong></div>');
+                        error_banner.fadeIn();
+                        $("#sorry").fadeIn();
                     }
-                    else if (json.system == "gcsc")
-                    {
-                        $("#gcsc").fadeIn();
-                    }
-                    else if (json.system == "mpc")
-                    {
-                        $("#mpc").fadeIn();
-                    }
-                    else if (json.system == "eu")
-                    {
-                        $("#eu").fadeIn();
-                    }
-                    else if (json.system == "gaus")
-                    {
-                        $("#gaus").fadeIn();
-                    }
-                    $("#end_message").fadeIn();
                 },
                 error:      function(json) {
                     console.log("Ajax error:");

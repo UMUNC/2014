@@ -61,7 +61,7 @@
             <h2>UMUNC<br>Allocation Query Tool</h2>
         </div>
         <div class="col-md-12" id="error_banner"></div>
-        <form name="id_num_form" class="form-horizontal" role="form" method="post" action="query.php" accept-charset="utf-8" id="id_num">
+        <form name="id_num_form" class="form-horizontal margin-bottom-60" role="form" method="post" action="query.php" accept-charset="utf-8" id="id_num">
             <div class="input-group" style="margin: auto; margin-bottom: 20px;">
                 <p style="text-align: center;">Please input your 18 Digits ID Number to query your allocation.</p>
                 <p style="text-align: center;">请输入你的18位身份证号码来查询席位分配</p>
@@ -75,9 +75,10 @@
         </form>
         <div class="row" id="alloc">
             <div class="col-md-10 col-md-offset-1 margin-bottom-50">
-                <table class="table" id="alloc_table">
+                <table class="table" style="font-size: 20px;">
                     <thead>
                         <tr>
+                            <th>代表姓名</th>
                             <th>席位分配</th>
                             <th>原文职位</th>
                             <th>中文职位</th>
@@ -85,7 +86,9 @@
                             <th>中文名称</th>
                         </tr>
                     </thead>
-                    <tbody></tbody>
+                    <tbody>
+                        <tr id="table_content"></tr>
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -163,6 +166,11 @@
                 <p>GAUS-SC: 325475921</p>
                 <p>GAUS-DISEC: 342403049</p>
                 <p>欧洲体系总群：347715107</p>
+            </div>
+        </div>
+        <div class="row" id="sorry">
+            <div class="col-md-10 col-md-offset-1 margin-bottom-30" style="text-align: center;">
+                <p>由于代表席位分配还没有全部完成。如果您不能立即查询到自己的席位信息。请过几天再来查询，或者致信<a href="mailto:info@umunc.com">info@umunc.com</a></p>
             </div>
         </div>
     </div>
