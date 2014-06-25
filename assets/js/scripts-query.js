@@ -92,6 +92,15 @@ $(document).ready(function(){
                         $("#end_message").fadeIn();
                     }
                     else {
+                        $("#start_message").hide();
+                        $("#cc").hide();
+                        $("#gcsc").hide();
+                        $("#mpc").hide();
+                        $("#gaus").hide();
+                        $("#eu").hide();
+                        $("#end_message").hide();
+                        $("#alloc").hide();
+                        $("#sorry").hide();
                         error_banner = $("#error_banner");
                         error_banner.hide();
                         error_banner.html('<div class="alert alert-danger fade in"><strong>输入错误或记录不存在</strong></div>');

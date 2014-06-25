@@ -62,10 +62,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scripts-query.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="scripts-query.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/scripts-query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+            <state line="102" column="43" selection-start="3492" selection-end="3492" vertical-scroll-proportion="0.5418502">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="query.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="0.12727273">
+            <state line="13" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="2.2857144">
               <folding />
             </state>
           </provider>
@@ -145,9 +145,9 @@
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/blogs/footer.html" />
         <option value="$PROJECT_DIR$/blogs/staff.php" />
-        <option value="$PROJECT_DIR$/assets/js/scripts-query.js" />
         <option value="$PROJECT_DIR$/query.html" />
         <option value="$PROJECT_DIR$/query.php" />
+        <option value="$PROJECT_DIR$/assets/js/scripts-query.js" />
       </list>
     </option>
   </component>
@@ -484,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scripts-query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/query.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="72" selection-start="2164" selection-end="2164" vertical-scroll-proportion="-36.0">
@@ -515,7 +508,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/query.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="0.12727273">
+        <state line="13" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="2.2857144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts-query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="43" selection-start="3492" selection-end="3492" vertical-scroll-proportion="0.5418502">
           <folding />
         </state>
       </provider>
