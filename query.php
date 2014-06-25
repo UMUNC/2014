@@ -22,10 +22,11 @@ function connect_db () {
 
 // Begin process
 
-if ($_POST) {
+//if ($_POST) {
 
     // Retrieve HTTP variables
-    $id_num = $_POST['id_number'];
+    //$id_num = $_POST['id_number'];
+    $id_num = 14230119950419001x;
 
     // Connect to database server
     if (!($link = connect_db())) {
@@ -74,7 +75,7 @@ if ($_POST) {
 
     // Return the allocation if success
     echo json_encode(array("system" => $sys, "alloc" => $alloc));
-}
+//}
 else {
     // Return error
     echo "no http post";
