@@ -34,6 +34,7 @@ $(document).ready(function(){
             var error_banner = $("#error_banner");
 
             error_banner.hide();
+            $("#sorry").hide();
             error_banner.html(error);
             error_banner.fadeIn();
         }
