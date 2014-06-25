@@ -32,7 +32,7 @@
     <file path="/timeline.css" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397060267139" ignored="false" />
     <file path="/2014_nat.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1397223310108" ignored="false" />
     <file path="/about.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401718856867" ignored="false" />
-    <file path="/index.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401720337732" ignored="false" />
+    <file path="/index.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1403690137483" ignored="false" />
     <file path="/footer.html" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401727194345" ignored="false" />
     <file path="/blog_item_option2.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401720722406" ignored="false" />
     <file path="/invitation.php" changelist="3df7e546-6730-4014-88cd-8587bbfebd9f" time="1401721664403" ignored="false" />
@@ -62,19 +62,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scripts-query.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/scripts-query.js">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="43" selection-start="3492" selection-end="3492" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="194" column="43" selection-start="9260" selection-end="9260" vertical-scroll-proportion="0.7418856">
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#blockquote#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="query.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="112" selection-start="9291" selection-end="9291" vertical-scroll-proportion="0.33384854">
+            <state line="172" column="116" selection-start="9245" selection-end="9295" vertical-scroll-proportion="-8.523809">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,33 +96,6 @@
                 <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="query.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="2.2857144">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extract.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extract.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="49" selection-start="1397" selection-end="1492" vertical-scroll-proportion="-15.428572">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extract.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extract.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -140,7 +118,6 @@
         <option value="$PROJECT_DIR$/2014_nat.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/history.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/tech.php" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/blogs/footer.html" />
@@ -148,6 +125,7 @@
         <option value="$PROJECT_DIR$/query.php" />
         <option value="$PROJECT_DIR$/assets/js/scripts-query.js" />
         <option value="$PROJECT_DIR$/query.html" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -409,11 +387,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blogs/info_conf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="59" selection-start="4200" selection-end="4200" vertical-scroll-proportion="0.28125" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="31" selection-start="2230" selection-end="2230" vertical-scroll-proportion="-4.428571" />
@@ -456,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extract.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="52" selection-start="3392" selection-end="3436" vertical-scroll-proportion="0.7929515">
@@ -477,20 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="49" selection-start="1397" selection-end="1492" vertical-scroll-proportion="-15.428572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="2.2857144">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/scripts-query.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="43" selection-start="3492" selection-end="3492" vertical-scroll-proportion="0.0">
@@ -498,9 +450,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="-0.07272727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="49" selection-start="1397" selection-end="1492" vertical-scroll-proportion="0.4909091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/query.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="112" selection-start="9291" selection-end="9291" vertical-scroll-proportion="0.33384854">
+        <state line="172" column="116" selection-start="9245" selection-end="9295" vertical-scroll-proportion="-8.523809">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -516,6 +489,18 @@
             <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="43" selection-start="9260" selection-end="9260" vertical-scroll-proportion="0.7418856">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#blockquote#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#blockquote#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

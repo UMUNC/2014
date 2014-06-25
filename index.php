@@ -188,6 +188,21 @@
                 <a style="text-align: center; font-size: 27px;" class="btn-u btn-u-blue btn-block" href="2014_nat.php">报名</a>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-9">
+                <blockquote>
+                    <h1 class="margin-bottom-20" style="font-size: 31px;">席位分配已经开始陆续录入系统，查询请点击右侧的按钮</h1>
+                    <p style="font-size: 19px;">
+                        由于席位分配不是最终版本，暂时没有查到席位的代表请不要着急。系统会陆续增补各位代表的席位。如果有疑问，请致电我们的联系电话或写邮件到<a href="mailto:core@umunc.net">core@umunc.net</a>
+                    </p>
+                </blockquote>
+            </div>
+            <div class="col-md-3">
+                <br>
+                <br>
+                <a style="text-align: center; font-size: 27px;" class="btn-u btn-u-blue btn-block" href="query.html">查询席位</a>
+            </div>
+        </div>
     </div>
 </div>
 
