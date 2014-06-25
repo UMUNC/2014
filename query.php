@@ -46,6 +46,8 @@ if ($_POST) {
         echo "query failed";
         exit(1);
     }
+    echo "name is: ";
+    echo $del_name;
     // Get delegate's system using the name
     $query = "select system from delegate_alloc where del_name = '$del_name'";
     if (!($sys = mysql_query($query))) {
@@ -53,6 +55,8 @@ if ($_POST) {
         echo "query failed";
         exit(1);
     }
+    echo "system is: ";
+    echo $sys;
     // Get delegate's allocation using the name
     $query = "select representation, pos_original, pos_chn, name_original, name_chn from delegate_alloc where del_name = '$del_name'";
     if (!($alloc = mysql_query($query)))
@@ -61,7 +65,7 @@ if ($_POST) {
         echo "query failed";
         exit(1);
     }
-    echo "alloc is ";
+    echo "alloc is: ";
     echo $alloc;
     exit(1);
 
