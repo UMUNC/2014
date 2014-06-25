@@ -12,13 +12,14 @@ $(document).ready(function(){
     // Hide Ajax elements
     $("#error_banner").hide();
     //$("#id_num").hide();
-/*
+
     $("#start_message").hide();
     $("#cabinet").hide();
     $("#gaus").hide();
     $("#eu").hide();
     $("#end_message").hide();
-*/
+    $("#alloc").hide();
+
     $("#id_num").submit(function(ev){
 
         ev.preventDefault();
@@ -37,11 +38,11 @@ $(document).ready(function(){
             $("#error_banner").hide();
 
             var post_data = $("#id_num").serialize();
+            console.log(post_data);
             $.ajax({
                 type:       'POST',
                 url:        'query.php',
-                data:       post_data,
-                dataType:   'json',
+                dataType:   'text',
                 success:    function(json) {
                     var content =
                     // Insert alloc
