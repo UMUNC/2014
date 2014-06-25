@@ -14,7 +14,9 @@ $(document).ready(function(){
     //$("#id_num").hide();
 
     $("#start_message").hide();
-    $("#cabinet").hide();
+    $("#cc").hide();
+    $("#gcsc").hide();
+    $("mpc").hide();
     $("#gaus").hide();
     $("#eu").hide();
     $("#end_message").hide();
@@ -44,7 +46,7 @@ $(document).ready(function(){
                 url:        'query.php',
                 dataType:   'text',
                 success:    function(json) {
-                    var content =
+                    console.log(json);
                     // Insert alloc
                     $("#table_content").html(
 
