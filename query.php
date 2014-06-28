@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: xianwang
- * Date: 4/9/14
- * Time: 11:04 AM
- * To change this template use File | Settings | File Templates.
- */
 
 // Connect to database
 function connect_db () {
@@ -34,7 +27,7 @@ if ($_POST) {
     }
 
     // Begin querying
-    // Select database
+    // Select database & set charset
     mysql_select_db("umunc_v2");
     mysql_query("SET CHARACTER SET utf8");
     mysql_query("SET NAMES utf8");
@@ -49,6 +42,7 @@ if ($_POST) {
         echo "query failed";
         exit(1);
     }
+    // Get row from SQL resource
     $del_name = mysql_fetch_row($result);
     //echo "name is: " . $del_name[0];
 
@@ -60,6 +54,7 @@ if ($_POST) {
         echo "query failed";
         exit(1);
     }
+    // Get row from SQL resource
     $system = mysql_fetch_row($result);
     $sys = $system[0];
     //echo "system is: " . $sys;
@@ -72,10 +67,11 @@ if ($_POST) {
         echo "query failed";
         exit(1);
     }
+    // Get row from SQL resource
     $alloc = mysql_fetch_row($result);
 
 
-    // Return the allocation if success
+    // Return the allocation if success, encoded with json
     echo json_encode(array("system" => $sys, "alloc" => $alloc));
 }
 else {

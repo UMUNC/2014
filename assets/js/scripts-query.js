@@ -48,12 +48,20 @@ $(document).ready(function(){
                 data:       post_data,
                 dataType:   'json',
                 success:    function(json) {
+
+                    // When data return
                     if (json.alloc != false) {
                         console.log(json);
-                        // Insert alloc
+
+                        // Insert alloc begins
                         var return_val = json.alloc;
+
+                        // Prepare content
                         var content = "";
+
+                        // Insert delegate name
                         content += ("<td>" + return_val[5] + "</td>");
+                        // Insert allocation data
                         for (var i = 0; i < 5; i++) {
                             if (return_val[i] != null) {
                                 content += ("<td>" + return_val[i] + "</td>");
@@ -65,11 +73,13 @@ $(document).ready(function(){
 
                         console.log(content);
 
+                        // Insert into table
                         $("#table_content").html(content);
                         // Display alloc
                         $("#alloc").fadeIn();
                         // Display message
                         $("#start_message").fadeIn();
+                        // Determine system and show corresponding message
                         if (json.system == "cc") {
                             $("#cc").fadeIn();
                         }
@@ -92,6 +102,8 @@ $(document).ready(function(){
                         $("#end_message").fadeIn();
                         $("#sorry").hide();
                     }
+
+                    // When nothing returns
                     else {
                         $("#start_message").hide();
                         $("#cc").hide();
